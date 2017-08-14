@@ -32,6 +32,16 @@
    		position: absolute;
    		z-index: 999;
    	}
+   	.FishingList2 {
+    width: 87%;
+    margin: 5% auto;
+}
+.mtop9 {
+    margin-top: 0%;
+    max-width: 100%;
+}
+
+
    	.homePrograms h3 {
    		background: #928000;
    		color: #fff;

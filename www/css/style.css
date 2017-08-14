@@ -972,6 +972,16 @@ height: 71px;
       color: #fff;
       height: 75px;
     }
+     ul.tabs li.current i{
+      
+      color: #fff;
+    
+    }
+   
+ .mleft40{
+      margin-left: 33px;
+    
+    }
 
     .tab-content{
       display: none;
