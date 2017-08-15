@@ -608,6 +608,28 @@ padding: 10px ;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#Tsimane2 h3{
+    font-family: 'Raleway-bold';
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  text-align: left !important;
+}
+#Tsimane2 h2{
+    font-family: 'Raleway-Heavy';
+  
+  font-size: 50px;
+  color: #fff;
+  text-align: left !important;
+  margin-top: 0px;
+}
+#Tsimane2 h4{
+    font-family: 'Raleway-SemiBold';
+  
+  font-size: 30px;
+  color: #fff;
+  text-align: left !important;
+}
 .brawn{
   background: #23190f;
   padding: 10px;
@@ -3037,6 +3059,75 @@ img {
 		display:inherit;
 		padding:0;
 	}
+#cloud-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+#cloud-animation img {
+
+  left: 0;
+  top: -10%;
+  position: absolute;
+}
+
+@-webkit-keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@-moz-keyframes animCloud {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+@keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+#cloud1 {
+  -webkit-animation: animCloud 25s infinite linear;
+  -moz-animation: animCloud 25s infinite linear;
+  animation: animCloud 25s infinite linear;
+}
+
+#cloud2 {
+  -webkit-animation: animCloud 35s infinite linear;
+  -moz-animation: animCloud 35s infinite linear;
+  animation: animCloud 35s infinite linear;
+}
+#cloud3 {
+  -webkit-animation: animCloud 45s infinite linear;
+  -moz-animation: animCloud 45s infinite linear;
+  animation: animCloud 45s infinite linear;
+}
+
+#cloud4 {
+  -webkit-animation: animCloud 55s infinite linear;
+  -moz-animation: animCloud 55s infinite linear;
+  animation: animCloud 55s infinite linear;
+}
 
 @media  (min-width: 1440px) {
 	.body{
