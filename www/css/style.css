@@ -244,6 +244,9 @@ margin-top: 0px;
 	text-transform: uppercase;
 
 }
+.mtop20{
+  margin-top: 20%;
+}
 .mtop-50{
   margin-top: -30%;
 }
@@ -583,6 +586,31 @@ padding: 10px ;
     /* margin-top: 50px; */
     padding-left: 50% !important;
     padding-bottom: 25px;
+}
+.white2{
+  color: #fff;
+  width: 93%;
+}
+
+.Tsimane-slide1 {
+    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502743297/Tsimane/slide0-tsimane.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Tsimane-slide2 {
+    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502724540/Tsimane/slide2_Tsimane.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brawn{
+  background: #23190f;
+  padding: 10px;
 }
 .Fishing-slide1 {
     background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502295714/Tsimane/slide-2-fishing.jpg);
@@ -941,7 +969,57 @@ font-size : 20px;
 .padding10{
   padding-top: 10px;
 }
+ul.tabsTsimane{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    
+    }
+    ul.tabsTsimane li{
+    background: none;
+    color: #888a8d;
+    display: inline-block;
+    padding: 5px 0px;
+    cursor: pointer;
+    width: 24.7%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway-semibold', sans-serif;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    height: 71px;
+}
+    }
+     ul.tabsTsimane li img{
+      margin-right: 10px;
+     }
 
+    ul.tabsTsimane li.current{
+      background: #928000;
+      color: #fff;
+      height: 75px;
+    }
+     ul.tabsTsimane li.current i{
+      
+      color: #fff;
+    
+    }
+       .tabTsimane-content{
+      display: none;
+     background: #938b14;
+   
+    width: 100% !important;
+    float: left;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    height: 500px;
+    }
+.TsimaneList{
+  width: 100%;
+}
 ul.tabs{
     margin: 0px;
     padding: 0px;
@@ -977,6 +1055,7 @@ height: 71px;
       color: #fff;
     
     }
+
    
  .mleft40{
       margin-left: 33px;
