@@ -607,6 +607,7 @@ padding: 10px ;
     height: 360px;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 80px;
 }
 #Tsimane2 h3{
     font-family: 'Raleway-bold';
@@ -617,7 +618,7 @@ padding: 10px ;
 }
 #Tsimane2 h2{
     font-family: 'Raleway-Heavy';
-  
+  text-transform: none;
   font-size: 50px;
   color: #fff;
   text-align: left !important;
