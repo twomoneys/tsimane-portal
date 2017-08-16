@@ -1010,10 +1010,13 @@ ul.tabsTsimane{
     text-transform: uppercase;
     font-family: 'Raleway-semibold', sans-serif;
     text-align: left;
-    border-bottom: 1px solid #ccc;
-    height: 71px;
+
+    height: 95px;
 }
-    }
+.mtop13{
+  margin-top: 13px;
+}
+    
      ul.tabsTsimane li img{
       margin-right: 10px;
      }
@@ -1021,11 +1024,19 @@ ul.tabsTsimane{
     ul.tabsTsimane li.current{
       background: #928000;
       color: #fff;
-      height: 75px;
+      height: 95px;
     }
      ul.tabsTsimane li.current i{
       
       color: #fff;
+    
+    }
+     ul.tabsTsimane li span{
+          font-size: 20px;
+    
+    width: 70%;
+    float: right;
+
     
     }
        .tabTsimane-content{
