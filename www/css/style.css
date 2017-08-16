@@ -429,12 +429,13 @@ margin-top: 0px;
 }
 .boxPerson {  
   
-    cursor: pointer;  
-    height: 300px;  
-    float: left;  
-    position: relative;  
-    overflow: hidden;  
-    width: 100%;  
+    cursor: pointer;
+    height: 422px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 50px;  
   
 }  
   
@@ -451,30 +452,26 @@ margin-top: 0px;
 
 .boxPerson .caption {  
 
-    background: #808014; /* Old browsers */
-background: -moz-linear-gradient(top, #808014 0%, #23190f 99%, #23190f 99%, #23190f 100%, #23190f 100%, #808014 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #808014 0%,#23190f 99%,#23190f 99%,#23190f 100%,#23190f 100%,#808014 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #808014 0%,#23190f 99%,#23190f 99%,#23190f 100%,#23190f 100%,#808014 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808014', endColorstr='#808014',GradientType=0 ); /* IE6-9 */
-    position: absolute;  
-    color: #fff;  
-    z-index: 100;  
-    -webkit-transition: all 300ms ease-out;  
-    -moz-transition: all 300ms ease-out;  
-    -o-transition: all 300ms ease-out;  
-    -ms-transition: all 300ms ease-out;  
-    transition: all 300ms ease-out;  
-    left: 0;  
-    opacity: 0;  
-    width: 100%;  
-    height: 144px;  
-    text-align: left;  
+    background: #818000;
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+    opacity: 0;
+    width: 92.5%;
+    height: 390px;
+    text-align: left;
     padding: 15px;
 }  
 
 .boxPerson .caption h3 {  
   font-family: "Raleway-Bold";
-    font-size: 13px !important;
+    font-size: 17px !important;
     padding-top: 0px !important;
     text-align: center;
     padding: 0px !important;
@@ -485,7 +482,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808014', end
 
 .boxPerson .caption p {  
   font-family: "Raleway-Regular";
-    font-size: 12px !important;
+    font-size: 15px !important;
     text-align: center !important
  }
 
@@ -1642,7 +1639,7 @@ a.learn_more2{
 }
 
 .tsimaneMan{
-      margin-bottom: 80px;
+         margin-bottom: 80px;
     width: 92.5%;
     text-align: center;
     padding: 7px;
@@ -1651,6 +1648,9 @@ a.learn_more2{
     font-family: "Raleway-Regular";
     font-size: 16px;
     padding: 25px;
+    position: absolute;
+    top: 298px;
+    background: #818000;
 }
 
 .slogan{
