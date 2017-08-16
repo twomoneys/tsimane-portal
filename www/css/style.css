@@ -245,7 +245,7 @@ margin-top: 0px;
 
 }
 .mtop20{
-  margin-top: 20%;
+  margin-top: 14%;
 }
 .mtop-50{
   margin-top: -30%;
@@ -409,6 +409,165 @@ margin-top: 0px;
 
 .mleft20{
   margin-left: 20px;
+}
+.mleft10{
+  margin-left: 10px;
+}
+.width20{
+  width: 20%;
+  float: left;
+  display: inline-block;
+}
+.width40{
+  width: 40%;
+  float: left;
+  display: inline-block;
+}
+.width20 img{
+  width: 100%;
+  height: 144px;
+}
+.boxPerson {  
+  
+    cursor: pointer;  
+    height: 300px;  
+    float: left;  
+    position: relative;  
+    overflow: hidden;  
+    width: 100%;  
+  
+}  
+  
+.boxPerson img {  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+
+.boxPerson .caption {  
+
+    background: #808014; /* Old browsers */
+background: -moz-linear-gradient(top, #808014 0%, #23190f 99%, #23190f 99%, #23190f 100%, #23190f 100%, #808014 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #808014 0%,#23190f 99%,#23190f 99%,#23190f 100%,#23190f 100%,#808014 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #808014 0%,#23190f 99%,#23190f 99%,#23190f 100%,#23190f 100%,#808014 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808014', endColorstr='#808014',GradientType=0 ); /* IE6-9 */
+    position: absolute;  
+    color: #fff;  
+    z-index: 100;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    left: 0;  
+    opacity: 0;  
+    width: 100%;  
+    height: 144px;  
+    text-align: left;  
+    padding: 15px;
+}  
+
+.boxPerson .caption h3 {  
+  font-family: "Raleway-Bold";
+    font-size: 13px !important;
+    padding-top: 0px !important;
+    text-align: center;
+    padding: 0px !important;
+    line-height: 18px !important;
+    padding-top: 20px !important;
+}
+ 
+
+.boxPerson .caption p {  
+  font-family: "Raleway-Regular";
+    font-size: 12px !important;
+    text-align: center !important
+ }
+
+.boxPerson:hover .fade-caption {  
+    opacity: 1;  
+}
+
+.box {  
+  
+    cursor: pointer;  
+    height: 144px;  
+    float: left;  
+    position: relative;  
+    overflow: hidden;  
+    width: 100%;  
+  
+}  
+  
+ .box img {  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+
+.box .caption {  
+
+    background: #808014; /* Old browsers */
+background: -moz-linear-gradient(top, #808014 0%, #23190f 99%, #23190f 99%, #23190f 100%, #23190f 100%, #808014 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #808014 0%,#23190f 99%,#23190f 99%,#23190f 100%,#23190f 100%,#808014 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #808014 0%,#23190f 99%,#23190f 99%,#23190f 100%,#23190f 100%,#808014 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808014', endColorstr='#808014',GradientType=0 ); /* IE6-9 */
+    position: absolute;  
+    color: #fff;  
+    z-index: 100;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    left: 0;  
+    opacity: 0;  
+    width: 100%;  
+    height: 144px;  
+    text-align: left;  
+    padding: 15px;
+}  
+
+ .box .caption h3 {  
+  font-family: "Raleway-Bold";
+    font-size: 13px !important;
+    padding-top: 0px !important;
+    text-align: center;
+    padding: 0px !important;
+    line-height: 18px !important;
+    padding-top: 20px !important;
+}
+ 
+
+.box .caption p {  
+  font-family: "Raleway-Regular";
+    font-size: 12px !important;
+    text-align: center !important
+ }
+
+ .box:hover .fade-caption {  
+    opacity: 1;  
+}  
+.titleTeam{
+    font-family: "Raleway-Bold";
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+
 }
 .content-menu{
 	    width: 1440px;
@@ -1001,7 +1160,7 @@ ul.tabsTsimane{
     }
     ul.tabsTsimane li{
     background: none;
-    color: #888a8d;
+    color: #808000;
     display: inline-block;
     padding: 5px 0px;
     cursor: pointer;
@@ -1041,16 +1200,23 @@ ul.tabsTsimane{
     }
        .tabTsimane-content{
       display: none;
-     background: #938b14;
+     background: #cfcfcf !important;
    
     width: 100% !important;
     float: left;
     height: 100%;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
-    height: 500px;
+    color: #23190f !important;
+    height: 100% !important;
     }
+
+     .currents{
+      color: #23190f !important;
+      padding: 30px;
+      font-family: 'Raleway-Regular', sans-serif;
+      font-size: 16px;
+     }
 .TsimaneList{
   width: 100%;
 }
@@ -1452,6 +1618,43 @@ a.learn_more2{
     text-align: center;
     margin: auto;
     margin-top: 50px;
+    margin-right: 10px;
+}
+.tsimaneTitleBrawn{
+   font-family: "Raleway-Bold";
+   font-size: 42px;
+   color:#808000;
+
+}
+.tsimaneTitleBrawn span{
+   font-family: "Raleway-SemiBold";
+   font-size: 36px;
+   color:#808000;
+   
+}
+.tsimaneDiv{
+  padding: 130px;
+
+}
+.tsimaneDiv  p, .tsimaneTitleBrawn{
+  margin-left: 15%;margin-right: 15%;
+  width: 70%;
+}
+
+.tsimaneMan{
+      margin-bottom: 80px;
+    width: 92.5%;
+    text-align: center;
+    padding: 7px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway-Regular";
+    font-size: 16px;
+    padding: 25px;
+}
+
+.slogan{
+  margin-top: 10%;position: absolute;margin-left: -25%;
 }
 .follow_footer img{
 	display: inline-block !important;
