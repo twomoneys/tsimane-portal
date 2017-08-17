@@ -1655,14 +1655,67 @@ a.learn_more2{
    
 }
 .tsimaneDiv{
-  padding: 130px;
+  padding: 88px;
 
 }
 .tsimaneDiv  p, .tsimaneTitleBrawn{
   margin-left: 15%;margin-right: 15%;
   width: 70%;
 }
+.CV{
+  height: 865px; 
+  background: #23190f;
+  color: #fff;
+  font-family: "Raleway-Regular";
+   font-size: 16px;
+   line-height: 24px;
+   padding: 30px;
+}
+.CV p{
+  padding: 30px;
+   font-family: "Raleway-Regular";
+   font-size: 16px;
+   line-height: 24px
+   padding-top:10px;
+}
+.CV a{
 
+   font-family: "Raleway-Regular";
+   font-size: 16px;
+   line-height: 24px;
+   color: #fff;
+}
+.CV h3{
+  padding: 30px !important;
+   font-family: "Raleway-Regular";
+   font-size: 18px !important;
+   line-height: 24px !important;
+   color:#fff !important;
+   text-align: left !important;
+}
+
+.CV .btnClose{
+ color: #fff;
+ 
+    text-align: right;
+    font-size: 25px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 100px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.CV .btnClose2{
+ color: #fff;
+ 
+    text-align: right;
+    font-size: 25px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 100px;
+    bottom: 0px;
+    cursor: pointer;
+}
 .tsimaneMan{
          margin-bottom: 80px;
     width: 92.5%;

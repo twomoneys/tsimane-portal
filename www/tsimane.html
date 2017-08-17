@@ -389,14 +389,14 @@
 																					<p>+591 75077762  </p>
 																					<div class="lineVertical"></div>
 																					<div class="divButton">
-																						<a class="btn-lets "> VER CV</a>
+																						<a class="btn-lets " onclick="OpenCVMarcelo()"> VER CV</a>
 																					</div>
 																				</span>  
 																			</div>
 
 																			<div class="boxPerson">  
 																				<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1502724432/Tsimane/rodrigo_Tsimane.jpg">
-																				<div class="golden tsimaneMan" >Marcelo Perez<br/>CEO & Founder</div>
+																				<div class="golden tsimaneMan" >RODRIGO MOREIRA SALLES<br/>Partner & Sales Director</div>
 																				<span class="caption fade-caption">  
 																					<h3>RODRIGO MOREIRA SALLES</h3>  
 																					<p>Partner & Sales Director</p>
@@ -405,14 +405,85 @@
 																					<p>+55 92 3308.6010  </p>
 																					<div class="lineVertical"></div>
 																					<div class="divButton">
-																						<a class="btn-lets  " href="#openModal" > VER CV</a>
+																						<a class="btn-lets  " onclick="OpenCV()" > VER CV</a>
 																					</div>
 																				</span>  
 																			</div>
 																			
 																			
 																</div>
-																		<div class="col-lg-8 paddingLR ">
+
+<div class="col-lg-8 paddingLR CV " id="cvMarcelo" style="display: none;">
+<p>MARCELO PÉREZ | CEO & Founder</p>
+<p>
+Argentinean architect, trained as an angler on the Argentinean
+Paraná watershed from an early age, he is devoted to Dorado,
+traveling and exploring throughout South America new jungle
+environments on the search of this fish.<br/><br/>
+
+He is the CEO and Founder of Untamed Angling, creator of the 
+concept and the project model of the company.<br/><br/>
+
+
+He wrote about fly-fishing for Dorado in magazines in Argentina
+and Spain for many years until he founded Untamed Angling.<br/><br/>
+
+
+Then he developed and designed fly fishing projects that are of 
+international recognition such as La Zona, Far end Rivers,
+Desroches Island, Tsimane, and more recently with the input of
+his friend and business partner Rodrigo Moreira Salles, new
+venues like Kooi Noom (Patagonia), Marié, Kendjam, and
+Pirarucú (in the Brazilian Amazon).
+
+</p>
+<p>
+<a href="mailto:ceo@untamedangling.com"> ceo@untamedangling.com</a><br/><br/>
+
++591 75077762
+</p>
+
+<p>
+<a href="mailto:rodrigo@untamedangling.com"> rodrigo@untamedangling.com</a><br/><br/>
++55 92 3308.6010
+</p>
+
+<a class="btnClose"> Close X</a>
+</div>
+<div class="col-lg-8 paddingLR CV " id="cvRodrigo" style="display: none;">
+<p>RODRIGO MOREIRA SALLES | Partner & Sales Director</p>
+
+<p>Brazilian, Civil Engineer, trained as an angler in Brazil, where he
+grew up and lived for many years near the headwaters of the
+Paraná river.
+<br/><br/>
+There he learned with his grandfather how to fish for Dorado. He has
+lived many experiences while fishing in the jungles of Brazil, particularly
+in the Pantanal and remote tropical jungles of the Amazon.
+<br/><br/>
+He also made explorations by various rivers of South America on 
+the search of his favorite fish: the Dorado.
+<br/><br/>
+He has written for major magazines in Brazil about fly fishing in the
+jungle, in a time when the modality was still unknown in his country.
+<br/><br/>
+He is a partner and Sales Director of Untamed Angling and he
+worked on the marketing of the company destinations since the
+beginnings, inserting Untamed Angling on the most demanding
+markets in the world. He has also collaborates in all the projects
+and nowadays he is developing Untamed new destinations in
+Brazil (Marié, Kendjam, and Pirarucú).
+</p>
+<p>
+<a href="mailto:rodrigo@untamedangling.com"> rodrigo@untamedangling.com</a><br/><br/>
++55 92 3308.6010
+</p>
+
+<a class="btnClose2"> Close X</a>
+</div>
+
+
+																		<div class="col-lg-8 paddingLR " id="team">
 																			<div class="row>">
 																				<div class="width40 paddingLR "><div class="golden">
 																					<h4 class="titleTeam">OUR TEAM</h4>
@@ -882,9 +953,37 @@
 																								var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
 																								$(".divclass").css("font-size", newFontSizeTitle)
 																							}
+
+
 																						</script>
 
-
+																		
+<script type="text/javascript">
+	function OpenCVMarcelo() {
+       var div1 = document.getElementById('team');
+       var div2 = document.getElementById('cvMarcelo');
+       if(div2.style.display == 'block'){
+           div2.style.display = 'none';
+           div1.style.display = 'block';
+       }else{
+          div2.style.display = 'block';
+          div1.style.display = 'none';
+         };
+         document.querySelector('.btnClose').addEventListener('click', function(e) { e.preventDefault(); OpenCVMarcelo() })
+   }
+	function OpenCV() {
+       var div3 = document.getElementById('team');
+       var div4 = document.getElementById('cvRodrigo');
+       if(div4.style.display == 'block'){
+           div4.style.display = 'none';
+           div3.style.display = 'block';
+       }else{
+          div4.style.display = 'block';
+          div3.style.display = 'none';
+         };
+         document.querySelector('.btnClose2').addEventListener('click', function(e) { e.preventDefault(); OpenCV() })
+   }
+</script>
 
 																					</body>
 																					</html>

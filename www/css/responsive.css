@@ -40,6 +40,22 @@
    		margin-top: 0%;
    		max-width: 100%;
    	}
+.CV .btnClose{
+	padding-top: 0px;
+}
+.CV .btnClose2{
+	padding-top: 0px !important;
+}
+   	.CV {
+    height: 100%;
+    background: #23190f;
+    color: #fff;
+    font-family: "Raleway-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px;
+
+}
 
 
    	.homePrograms h3 {
@@ -836,7 +852,20 @@
 
    @media (max-width: 767px) {
    	/****Mobile Landscape 480 Container 100% ****/
-
+.CV {
+       height: 145%;
+    background: #23190f;
+    color: #fff;
+    font-family: "Raleway-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px;
+    position: absolute;
+    z-index: 9999;
+}
+.CV .btnClose{
+	padding-top: 0px;
+}
    	.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
    	#client_outer{ padding:25px 0px;}
    	.client_profile.flt{ float:none;}
