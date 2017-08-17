@@ -3,7 +3,7 @@
    ========================================================================== */
 
 
-   @media only screen and (min-width: 768px) and (max-width: 1280px) {
+   @media only screen and (min-width: 768px) and (max-width: 1080px) {
    	.portfolioContainer { margin:0px auto;}
    	#work_outer{ background-size:450px; padding:40px 0px; background-position:right 230px; }
    	.top_cont_inner{ background-size:400px;}
@@ -55,6 +55,737 @@
    	
 
    	.top_cont_latest{ background-size:500px;}
+   	.tsimaneDiv {
+    padding: 60px;
+}
+.tsimaneDiv p, .tsimaneTitleBrawn {
+    margin-left: 12%;
+    margin-right: 15%;
+    width: 77%;
+}
+.waterGolden {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -92px;
+}
+.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
+   	#client_outer{ padding:25px 0px;}
+   	.client_profile.flt{ float:none;}
+   	.c-logo-part ul li{  margin:0 6px;}
+   	.c-logo-part ul a{ width:100px;}
+   	.client_profile{ float:none; margin:0 0 20px 0;}
+   	.client_area{ width:436px;}
+   	.quote_section{ width:auto; float:none;}
+
+   	.service_block{ margin:0 0 20px 0;}
+   	#service{ padding:20px 0px;}
+   	.work_section{ padding:25px 0px;} 
+   	#work_outer{background:none; padding:25px 0px; }
+   	.top_cont_inner{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+
+   	.top_cont_latest{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+   	.top_left_cont { padding: 10% 0;}
+   	.top_left_cont h2{ font-size:29px;}
+   	body{ font-size:12px;}
+   	h2{ font-size:26px !important;}
+   	h3{ font-size:14px;}
+   	h6{ font-size:16px; margin-bottom:40px;}
+   	p{ line-height:18px;}
+   	.service-list{ font-size:12px; margin-bottom:20px;}
+   	.we-create li{ font-size:13px; padding:0 0 0 8px}
+   	.header h1{ font-size:28px;}
+   	.header{ padding:60px 0;}
+   	.main-section{ padding:60px 0 70px;}
+   	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+   	.main-nav li{ display:block;}
+   	.main-nav li.small-logo{ display:none;}
+   	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+   	.main-nav li a:hover{color:#7cc576}
+   	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+   	.team-leader-box:nth-of-type(3n){ margin:0 auto}
+   	.res-nav_click{ display:block;}
+   	.featured-work{ font-size:12px; margin-top:30px;}
+   	.featured-box{ font-size:12px;}
+   	.featured-box p{ line-height:18px; }
+   	.c-logo-part ul a{ margin-bottom:5px;}
+   	.main-section.team{ padding:60px 0 50px;}
+   	.business-talking h2{ font-size:36px;}
+   	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
+   	.contact-info-box span{ line-height:18px;}
+   	.social-link{ margin-left:30px;} 
+   	.form{ margin:0 30px;}
+   	.copyright{ font-size:12px;}
+   	.business-talking a{ padding:10px 25px; font-size:14px;}
+   	.main-section.contact{ padding:60px 0 70px}
+   	.client-part-haead{ font-size:20px; line-height:30px;}
+   	.link{ font-size:14px; padding:10px 25px;}
+
+   	.main-section.contact{ background-size:contain;}
+   	.Portfolio-nav li a{ padding:5px 16px;}
+   	.Portfolio-nav li{ display:block;}
+	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
+	.isotope-item{ width:300px; margin:0px auto;}
+	.isotope{ width:400px; margin:0px auto;}
+	.Portfolio-box{}
+	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+	
+	.portfolioContainer { max-width:350px; margin:0px auto;}
+	.logo{ margin:0px auto 10px; float:none; }
+	.nav{ float:none; position:absolute; width:100%; top: 67px;}
+	
+	.toggle.ul{ background:#fff; width:100%;}
+	.nav ul li{ border-bottom:1px solid #CCC; display:block; float:none; width:100%; margin:0px; text-align:center;}
+	.nav ul li a{ padding:6px 0px}
+	.res-nav_click{ 
+		bottom: 0px;
+		display: block;
+		font-size: 25px;
+		position: absolute;
+		float: right;
+		margin-left: 80%;
+		color: #23190f;
+	}
+	.res-nav_click a{ text-decoration:none;}
+	.res-nav_click a:hover{ text-decoration:none; color:#060;}
+	.nav ul{ background:#928000; display:none;
+		width: 50%;
+		float: right;}
+
+		.nav ul.toggle{
+			display:none;
+			visibility:visible;
+			height:auto;
+			overflow:auto;
+		}
+
+		.work_pic {
+			position: relative;
+			right: 0;
+			top: auto;
+			width: 90%;
+			margin-left: 10%;
+		}
+
+		#About h3 {
+			font-size: 18px;
+			padding: 13px;
+			padding-top: 50px;
+			padding-bottom: 50px;
+
+		}
+		.aboutText {
+
+			padding: 20px 15px;
+		}
+
+		.home-trips {
+			min-height: 100%;
+		}
+		.arrow-active-down{
+			top:99%;
+			border-top: 0px solid #928000;
+			border-left: 0px solid transparent;
+			border-right: 0px solid transparent;
+		}
+		.home-expeditions {
+			min-height: 100%;
+		}
+		.home-weekly{
+			min-height: 100%;
+		}
+
+		.service_area {
+			padding: 0px;
+			margin-top: 0px;
+		}
+		.Jungle-slide2 h2{
+			font-size: 30px;
+		}
+		.Jungle-slide3 h2{
+			font-size: 30px;
+		}
+		.Jungle-slide3 {
+			background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1501092456/Tsimane/Pluma-Living-Room_bhfayi.jpg);
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#culture .backText {
+			height: 100%;
+			background: #928000;
+			max-height: 100%;
+		}
+		.Jungle h4{
+			font-size: 18px;
+		}
+		.Jungle-slide2{
+			width: 100%;
+			height: 100%;
+		}
+		.Follow h3 {
+			font-size: 22px !important;
+			line-height: 38px !important;
+		}
+		.MediaMagazine{
+			border-right: 0px;
+		}
+		#MediaPage .menu a {
+			cursor: pointer;
+			font-family: 'Raleway-bold';
+			text-transform: uppercase;
+			font-size: 15px;
+			color: #6f6f6e;
+			vertical-align: text-top;
+		}
+		#MediaPage .menu {
+			background: #fff;
+			width: 80%;
+			margin-left: 10%;
+			height: 100%;
+			margin-top: 0px;
+			z-index: 4;
+			display: block;
+			position: sticky;
+			border-bottom: 0px solid #ccc;
+			text-align: left;
+		}
+		#MediaPage .menu img {
+			margin-top: 7px;
+			width: 30px;
+		}
+		.home-media-3 {
+			background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500495832/Tsimane/media-6.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			height: 900px;
+		}
+		.mLeftPick{
+			margin-left: 0px !important;
+			margin-left: 0% !important;
+		}
+		.mLeft8{
+			margin-left: 3.5% !important;
+		}
+
+		#twitter .coment h5 {
+			color: #58595b;
+			font-size: 14px;
+			padding: 0px;
+			line-height: 20px;
+			margin: 0px;
+			margin-bottom: 5px;
+			font-family: 'Raleway-bold';
+			margin-left: 0px; 
+			margin-right: 20px; 
+			margin-top: 25px;
+			padding-left: 20px;}
+			.twitterText{
+				width: 100%;
+				float: none;
+				margin-right: 0px;
+			}
+			.twitterContent{
+				margin-right: 0px;
+			}
+			.home-about-1 {
+				min-height: 100%;
+				margin-left: 23%;
+			}
+			.mleft20{
+				margin-left:0px; 
+			}
+			.home-about-4 {
+				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500900481/Tsimane/fishing-_rp2m62.jpg);
+				background-repeat: no-repeat;
+				background-size: 500px;
+				min-height: 285px;
+			}
+
+			.home-about-5 {
+				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500900477/Tsimane/anglers-2_k2soga.jpg);
+				background-repeat: no-repeat;
+				background-size: 375px;
+				min-height: 499px;
+			}
+			.contact{margin-top: 0px !important}
+
+
+			.title2 {
+				text-transform: uppercase;
+				font-size: 48px;
+				text-align: center;
+				font-size: 30px;
+				line-height: 14px;
+				letter-spacing: 2.4px;
+				color: #FFFFFF;
+				color: rgb(255, 255, 255);
+				padding-top: 10px;
+				font-family: "Raleway-ExtraBold";
+			}
+			.arrow-active-right {
+				width: 0;
+				height: 0;
+				border-left: 0px solid #928000; 
+				border-top: 0px solid transparent; 
+				border-bottom: 20px solid transparent;
+
+				padding-top: 0px;
+				top: 152px;
+				position: relative;
+				left: 100%;
+				z-index: 999;
+			}
+			.w48{
+				width: 100%;
+			}
+			.media-7 {
+				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1501010612/Tsimane/Jungle-Experience-2_ld4tv3.jpg);
+				background-repeat: no-repeat; 
+				background-size: 500px;
+				min-height: 418px;
+			}
+			.native {
+				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500568378/Tsimane/culture-jungle-experience-3.jpg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				min-height: 340px;
+			}  
+			.contact_section_contactUs .contact_block {
+				text-align: center;
+				width: 100%;
+				margin: auto;
+				padding-bottom: 50px;
+				padding-top: 50px;
+			}
+			.contact_section_follow .contact_block {
+				text-align: center;
+				width: 100%;
+				margin: auto;
+				padding-bottom: 50px;
+				padding-top: 50px;
+			}
+			.content-menu {
+				width: 1440px;
+				text-align: right;
+				display: block;
+				margin-left: 88.9%;
+			}
+
+			.TitleBrawn {
+				font-size: 16px;
+				text-align: justify;
+				line-height: 20px;
+				color: #3E1B04;
+				color: rgb(62, 27, 4);
+				margin-bottom: 20px;
+				font-family: "Raleway-Bold";
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			.textCEl{
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+
+			.arrow-active-Left-Jungle {
+				width: 0;
+				height: 0;
+				border-left: 0px solid #928000;
+				border-top: 0px solid transparent;
+				border-bottom: 0px solid transparent;
+				left: 101%;
+				padding-top: 0px;
+				top: 287px;
+				position: relative;
+				z-index: 999;
+			}
+
+			.LodigingList{
+				width: 85%;
+				margin: 5% auto;
+			}
+			.guides {
+
+				background-size:100%;
+				min-height: 352px;
+				background-position: center;
+			}
+
+			.camp {
+
+				background-size: 100%;
+				min-height: 294px;
+				background-position: center;
+			}
+			.lodge {
+
+				background-size: 100%;
+				min-height: 300px;
+				background-position: center;
+			}
+			.lodge1 {
+
+				background-size: 100%;
+				min-height: 301px;
+				background-position: center;
+			}
+			.lodge2 {
+
+				background-size: 100%;
+				min-height: 301px;
+				background-position: center;
+			}
+			.lodge3 {
+
+				background-size: 100%;
+				min-height: 301px;
+				background-position: center;
+			}
+			.generators {
+				background-size: 100%;
+				min-height: 371px;
+				background-position: center;
+			}
+			.home-media-4 {
+				background-size: 100%;
+				min-height: 401px;
+				margin-top: 0px;
+			}
+			.home-media-3Bis {
+
+				background-size: 100%;
+				min-height: 402px;
+			}
+			.btn-bookNow{
+				color: #fff !important;
+				text-align: center;
+			}
+			.nav ul li:last-child {
+				margin: 0 0 0 0px;
+			}
+			.contact_section_contactUs {
+				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500916729/Tsimane/contact-fish_aekdbj.jpg);
+				background-size: cover;
+				height: 500px;
+			}
+			.contact_section_contactUs .contact_block a.mail {
+				font-size: 16px;
+			}
+			.Fishing h2{
+				margin-top: 0px;
+
+				font-size: 25px;
+
+				line-height : 47.2px;
+				letter-spacing : 1.56px;
+				color : #FFFFFF;
+				color : rgb(255, 255, 255);
+				font-family: 'Raleway-Heavy';
+				text-align: left;
+				padding-left: 10%;
+				text-transform: none;
+
+			}
+
+
+
+			.Fishing h3{
+				margin-top: 0px;
+				font-size : 20px;
+				line-height : 46.4px;
+				letter-spacing : 0.4px;
+				color : #FFFFFF;
+				color : rgb(255, 255, 255);
+				font-family: 'Raleway-Bold';
+				text-transform: none;
+				text-align: left;
+				text-transform: uppercase;
+				padding-left: 10%;
+
+
+			}
+			.Fishing h4{
+				margin-top: 0px;
+				font-style : italic;
+				font-size : 16px;
+				line-height : 31px;
+				letter-spacing : 0.37px;
+				color : #FFFFFF;
+				color : rgb(255, 255, 255);
+				text-transform: none;
+				padding-left: 10%;
+				font-family: 'Raleway-Regular';
+				text-align: left;
+
+
+			}
+
+			#Fishing .menu {
+				height: 100%;
+				border-bottom: 0px;
+				width: 100%;
+				margin-left: 0%
+
+			}
+			.FishingList {
+				width: 99%;
+				margin: 5% auto;
+			}
+			.FishingList2 {
+				width: 100%;
+				margin: 0;
+				padding-right: 0px !important;
+			}
+			ul.tabs li {
+				font-size: 16px;
+				height: 90px;
+			}
+			ul.tabs li.current {
+				background: #928000;
+				color: #fff;
+				height: 95px;
+			}
+			ul.tabs li img {
+				margin-right: 10px;
+				display: block;
+			}
+			.textTab{
+				font-size: 13px !important;
+				color: #fff !important;
+				width: 90%;
+				margin-left: 14px !important;
+				/* text-align: justify !important; */
+				margin-top: 20px !important;
+			}
+			.mleft2{
+				margin-left: 2%;
+			}
+			.tab-content{
+				height: 100%;
+			}
+			.mtop9{
+				margin-top: 0.9%;
+			}
+
+			.icon-communities-2-tsimane:before {
+
+				font-size: 40px !important;
+
+			}
+			.icon-environmental-2-tsimane:before, .icon-working-2-tsimane:before,.icon-world-class-2-tsimane:before{
+
+				font-size: 40px !important;
+
+			}
+			.width40{
+				width: 100%;
+			}
+			.width20{
+				width: 50%;
+			}
+
+			.width20 img{
+				width: 100%;
+				height: 100%;
+			}
+			ul.tabsTsimane li span {
+				font-size: 10px;
+				width: 97%;
+				margin-top: 10px;
+
+
+			}
+			ul.tabsTsimane li.current {
+    background: #928000;
+    color: #fff;
+    height: 115px;
+}
+			ul.tabsTsimane li {
+				background: none;
+				color: #808000;
+				display: inline-block;
+				padding: 5px 0px;
+				cursor: pointer;
+				width: 24.3%;
+				font-size: 16px;
+				text-transform: uppercase;
+				font-family: 'Raleway-semibold', sans-serif;
+				text-align: left;
+				height: 115px;
+			}
+			.slogan{
+				margin-top: 1%;position: absolute;margin-left: -25%%;
+				height: 150px;
+				
+			}
+			.Tsimane-slide1 {
+				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502743297/Tsimane/slide0-tsimane.jpg);
+				margin: 0px;
+				padding: 0px;
+				height: 200px;
+				background-repeat: no-repeat;
+				background-size: 100%;
+			}
+			.mleft40{
+				margin-left: 0px;
+			}
+			.Tsimane-slide2{
+				padding: 20px;
+			}
+			.height80{
+  height: 280px
+}
+.waterGolden{
+      position: absolute;
+    margin-top: -191px;
+    margin-left: 0px;
+
+}
+
+    .waterGolden2 {
+    position: absolute;
+    margin-top: -80px;
+    float: right;
+    margin-left: 0%;
+
+}
+
+.boxPerson img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    width: 100%;
+}
+.boxPerson .caption {
+    background: #818000;
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 390px;
+    text-align: left;
+    padding: 15px;
+}
+.tsimaneMan {
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway-Regular";
+    font-size: 16px;
+    padding: 25px;
+    position: absolute;
+    top: 298px;
+    background: #818000;
+}
+.mleft10{
+	margin-left: 0px;
+}
+.tsimane1-3{
+	margin-left: 0%;
+}
+.tsimane1-2{
+	margin-left: 0%;
+}
+.tsimane1-1{
+	margin-left: 0%;
+}
+.btn-lets {
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+}
+			#cloud-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+#cloud-animation img {
+
+  left: -100%;
+  top: -10%;
+  position: absolute;
+}
+
+@-webkit-keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@-moz-keyframes animCloud {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+@keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+#cloud1 {
+  -webkit-animation: animCloud 25s infinite linear;
+  -moz-animation: animCloud 25s infinite linear;
+  animation: animCloud 25s infinite linear;
+}
+
+#cloud2 {
+  -webkit-animation: animCloud 35s infinite linear;
+  -moz-animation: animCloud 35s infinite linear;
+  animation: animCloud 35s infinite linear;
+}
+.tsimaneDiv p, .tsimaneTitleBrawn {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 90%;
+}.divButton{
+  margin-left: 25%; width: 50%; margin-top: 15px
+}
+
    }
    
    @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -621,7 +1352,7 @@
 				width: 100%;
 			}
 			.width20{
-				width: 100%;
+				width: 50%;
 			}
 
 			.width20 img{
@@ -630,7 +1361,7 @@
 			}
 			ul.tabsTsimane li span {
 				font-size: 10px;
-				width: 90%;
+				width: 97%;
 				margin-top: 10px;
 
 
@@ -654,9 +1385,9 @@
 				height: 115px;
 			}
 			.slogan{
-				margin-top: 1%;position: absolute;margin-left: -48%;
+				margin-top: 1%;position: absolute;margin-left: -25%%;
 				height: 150px;
-				width: 100%;
+				
 			}
 			.Tsimane-slide1 {
 				background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502743297/Tsimane/slide0-tsimane.jpg);
@@ -672,6 +1403,157 @@
 			.Tsimane-slide2{
 				padding: 20px;
 			}
+			.height80{
+  height: 280px
+}
+.waterGolden{
+      position: absolute;
+    margin-top: -191px;
+    margin-left: 0px;
+
+}
+
+    .waterGolden2 {
+    position: absolute;
+    margin-top: -80px;
+    float: right;
+    margin-left: 0%;
+
+}
+
+.boxPerson img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    width: 100%;
+}
+.boxPerson .caption {
+    background: #818000;
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 390px;
+    text-align: left;
+    padding: 15px;
+}
+.tsimaneMan {
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway-Regular";
+    font-size: 16px;
+    padding: 25px;
+    position: absolute;
+    top: 298px;
+    background: #818000;
+}
+.mleft10{
+	margin-left: 0px;
+}
+.tsimane1-3{
+	margin-left: 0%;
+}
+.tsimane1-2{
+	margin-left: 0%;
+}
+.tsimane1-1{
+	margin-left: 0%;
+}
+.btn-lets {
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+}
+			#cloud-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+#cloud-animation img {
+
+  left: -100%;
+  top: -10%;
+  position: absolute;
+}
+
+@-webkit-keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@-moz-keyframes animCloud {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+@keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+#cloud1 {
+  -webkit-animation: animCloud 25s infinite linear;
+  -moz-animation: animCloud 25s infinite linear;
+  animation: animCloud 25s infinite linear;
+}
+
+#cloud2 {
+  -webkit-animation: animCloud 35s infinite linear;
+  -moz-animation: animCloud 35s infinite linear;
+  animation: animCloud 35s infinite linear;
+}
+.tsimaneDiv p, .tsimaneTitleBrawn {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 90%;
+}.divButton{
+  margin-left: 25%; width: 50%; margin-top: 15px
+}
+
 		}
 
 		@media only screen and (max-width: 479px) {
