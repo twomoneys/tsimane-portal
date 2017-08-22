@@ -533,10 +533,10 @@ website:   	http://www.themepunch.com
 												 -moz-transition: opacity 0.2s ease-out;
 												  -o-transition: opacity 0.2s ease-out;
 												   -ms-transition: opacity 0.2s ease-out;
-												   width: 3%;
+												   width: 2%;
     float: left;
     display: block;
-        left: 94% !important;
+        left: 90% !important;
     top: 40%;
 											}
 .tp-bullets.hidebullets					{
@@ -552,7 +552,8 @@ website:   	http://www.themepunch.com
 .tp-bullets.simplebullets.navbar-old					{ 	 background:url(../assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 
-.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;		width:20px;	height:20px;  margin-right:0px; float:left; margin-top:2px; margin-left:3px;}
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	
+	width:15px;	height:15px;  margin-right:0px; float:left; margin-top:2px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
 .tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;		width:23px;	height:23px;  margin-right:0px; float:left; margin-top:0px;}

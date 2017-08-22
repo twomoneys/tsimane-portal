@@ -78,6 +78,7 @@
 
 	.fixed{
 		position:fixed !important;
+		max-width: 1440px !important
 	}
 
 	.f-left{

@@ -16,7 +16,7 @@ REV SLIDER FULL WIDTH
 			startwidth:1170,
 			startheight:610,
 			hideThumbs:10,
-			fullWidth:"on",
+			fullWidth:"off",
 			forceFullWidth:"on"
 		});
 
@@ -33,7 +33,7 @@ REV SLIDER FULL SCREEN
 			startheight:610,
 			hideThumbs:10,
 			fullWidth:"off",
-			fullScreen:"on",
+			fullScreen:"off",
 			fullScreenOffsetContainer: ""
 		});
 

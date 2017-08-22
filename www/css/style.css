@@ -1111,7 +1111,7 @@ padding: 10px ;
   padding: 10px;
 }
 .Fishing-slide1 {
-    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502295714/Tsimane/slide-2-fishing.jpg);
+    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1502295714/Tsimane/slide-2-fishing.jpg);
     margin: 0px;
     padding: 0px;
     height: 660px;
@@ -1119,7 +1119,7 @@ padding: 10px ;
     background-size: cover;
 }
 .Fishing-slide2 {
-    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/c_scale,w_1440/v1502588191/Tsimane/6.jpg);
+    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/c_scale,w_1440/v1502588191/Tsimane/6.jpg);
     margin: 0px;
     padding: 0px;
     height: 660px;
@@ -1127,7 +1127,7 @@ padding: 10px ;
     background-size: cover;
 }
 .Fishing-slide3 {
-    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1502295707/Tsimane/slide-3-fishing.jpg);
+    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1502295707/Tsimane/slide-3-fishing.jpg);
     margin: 0px;
     padding: 0px;
     height: 660px;
@@ -1370,14 +1370,14 @@ font-size : 20px;
 }
 
 .Jungle-slide1{
-	background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500568878/Tsimane/nature-jungle-experience-1.jpg);
+	background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1500568878/Tsimane/nature-jungle-experience-1.jpg);
 	margin: 0px;
 	padding: 0px;
 	height: 660px;background-repeat: no-repeat;
     background-size: cover;
 }
 .Jungle-slide2{
-	background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500568379/Tsimane/culture-jungle-experience-1.jpg);
+	background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1500568379/Tsimane/culture-jungle-experience-1.jpg);
 	margin: 0px;
 	padding: 0px;
 	height: 660px;
@@ -1385,7 +1385,7 @@ font-size : 20px;
     background-size: cover;
 }
 .Jungle-slide3{
-	background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1501092456/Tsimane/Pluma-Living-Room_bhfayi.jpg);
+	background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1501092456/Tsimane/Pluma-Living-Room_bhfayi.jpg);
 	margin: 0px;
 	padding: 0px;
 	height: 660px;
@@ -1663,7 +1663,7 @@ p{
 ---------------------------------*/
 
 #header_outer{
-	background:url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1499954709/Tsimane/background-header-100_avkxbz.jpg);
+	background:url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1499954709/Tsimane/background-header-100_avkxbz.jpg);
     background-size: cover;
 	padding:0px 0px;
 
@@ -1753,7 +1753,7 @@ width: 100%;π
 ---------------------------------*/
 
 .top_cont_outer{
-	background:url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500390081/Tsimane/slider_gzpbw0.jpg);
+	background:url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1500390081/Tsimane/slider_gzpbw0.jpg);
     background-repeat: no-repeat;
 height: 698px;
 	}
@@ -2381,7 +2381,7 @@ a.contact_btn:hover{
 	}
 
 .shortTrips{
-	background-image: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500492518/Tsimane/short-trip-480.jpg);
+	background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1500492518/Tsimane/short-trip-480.jpg);
 	background-size: cover;
 }
 
@@ -2472,14 +2472,14 @@ img {
 }
 
 #WILDNATURE .img1{
-	background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500568875/Tsimane/nature-jungle-experience-3.jpg);
+	background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1500568875/Tsimane/nature-jungle-experience-3.jpg);
     background-size: cover;
     height: 400px;
     background-position: 45%;
 }
 
 #WILDNATURE .img2{
-	    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/c_scale,h_420/v1500568876/Tsimane/nature-jungle-experience-5.jpg);
+	    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/c_scale,h_420/v1500568876/Tsimane/nature-jungle-experience-5.jpg);
     background-size: cover;
     height: 400px;
 }
@@ -3829,8 +3829,100 @@ img {
   animation: animCloud 55s infinite linear;
 }
 
+.tp-banner{
+  max-width: 1440px !important;
+  margin: auto;
+}
+#cloudHome-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  height: 50%;
 
 
+}
+#cloudHome-animation img {
+
+  left: 0;
+  top: -84%;
+  position: absolute;
+}
+
+@-webkit-keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@-moz-keyframes animCloud {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+@keyframes animCloud {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+#cloudHome1 {
+  -webkit-animation: animCloud 15s infinite linear;
+  -moz-animation: animCloud 15s infinite linear;
+  animation: animCloud 15s infinite linear;
+}
+
+#cloudHome2 {
+  -webkit-animation: animCloud 35s infinite linear;
+  -moz-animation: animCloud 35s infinite linear;
+  animation: animCloud 35s infinite linear;
+}
+
+
+#Gotas1-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+#Gotas1-animation img {
+
+  left: 0;
+  top: -10%;
+  position: absolute;
+
+}
+
+
+#Gotas1-1 {
+  -webkit-animation: pulse 5s infinite linear;
+  -moz-animation: pulse 5s infinite linear;
+  animation: pulse 5s infinite linear;
+}
+
+#Gotas1-2 {
+  -webkit-animation: pulse 15s infinite linear;
+  -moz-animation: pulse 15s infinite linear;
+  animation: pulse 15s infinite linear;
+}
 
 
 #Gotas-animation {
@@ -3887,6 +3979,28 @@ img {
   -moz-animation: shake  35s infinite linear;
   animation: shake  35s infinite linear;
 }
+
+#Slide5-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+#Slide5-animation img {
+
+  left: 0;
+  top: -10%;
+  position: absolute;
+}
+
+#Slide5-1 {
+  -webkit-animation: zoomIn  35s infinite linear;
+  -moz-animation: zoomIn 35s infinite linear;
+  animation: zoomIn  35s infinite linear;
+}
+
 .height80{
   height: 80px
 }
