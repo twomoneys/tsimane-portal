@@ -653,6 +653,13 @@ margin-top: 0px;
     background-size: cover;
     min-height: 660px
 }
+
+.lodgeAgua{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417947/Tsimane/programs/accomodations-weekly-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 660px
+}
 .camp{
 	    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500567670/Tsimane/services-jungle-experience-7.jpg);
     background-repeat: no-repeat;
@@ -1559,6 +1566,7 @@ ul.tabs{
     list-style: none;
     width: 30%;
     float: left;
+    border-left: 1px solid #ccc;
     }
     ul.tabs li{
       background: none;
@@ -1579,7 +1587,7 @@ height: 71px;
      }
 
     ul.tabs li.current{
-      background: #928000;
+      background: #938b14;
       color: #fff;
       height: 75px;
     }
@@ -4089,6 +4097,130 @@ img {
 .programsTextWhite{
   font-size: 14px;
   color: #fff;
+}
+#About h2{
+  font-size: 30px;
+   font-family: 'Raleway-ExtraBold', sans-serif;
+   margin-bottom: 0px;
+}
+
+#ProgramsFish {
+    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1503417938/Tsimane/programs/book-now-1-weekly-program.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+#ProgramsFish h1{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+#ProgramsFish .botonera{
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+  margin:  auto;
+  width: 40%;
+  text-align: center;
+}
+
+#ProgramsFish .botonera button{
+  border: 1px solid #fff;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#TripInfo h2{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: #818000;
+
+}
+
+#TripInfo{
+  margin-bottom: 60px;
+}
+
+.TripInfoList {
+    width: 100%;
+    margin: 5% auto;
+}
+#REVIEWS h2{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: #818000;
+
+}
+
+#ProgramsFishing h2{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: #818000;
+
+}
+
+#ProgramsFishing h2 img{
+  vertical-align: baseline;
+}
+#REVIEWS{
+  margin-bottom: 60px;
+}
+#post{
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+#post p.user{
+  font-family: 'Raleway-SemiBold', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #818000;
+  margin-bottom: 7px;
+
+}
+#post p.user span{
+  font-family: 'Raleway-Regular', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #818000;
+
+}
+#post p.comment{
+  font-family: 'Raleway-SemiBold', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #818000;
+  margin-bottom: 7px;
+
+}
+#Acomodations h2{
+   font-family: 'Raleway-Heavy', sans-serif;
+  font-size: 38px;
+  text-align: left;
+  color: #818000;
+
+}
+
+#Acomodations h2 img{
+  vertical-align: sub;
+}
+.height360{
+      height: 359px;
+}
+
+.Gray{
+  background: #e6e6e6;
+  color: #23190f;
+  padding: 30px;
 }
 @media  (min-width: 1440px) {
 	.body{
