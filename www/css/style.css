@@ -4068,6 +4068,28 @@ img {
 .tsimane1-1{
   margin-top: 30px; 
 }
+.programsHomeTitle{
+  font-size: 24px;
+  color: #878000;
+  text-transform: uppercase;
+   font-family: 'Raleway-Bold', sans-serif;
+   text-align: left !important;
+}
+
+.programsHomeTitleNumber {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway-Regular', sans-serif;
+    text-align: left !important;
+    width: 20%;
+    float: left;
+    margin-top: -8px;
+}
+.programsTextWhite{
+  font-size: 14px;
+  color: #fff;
+}
 @media  (min-width: 1440px) {
 	.body{
 		width: 1440px;
