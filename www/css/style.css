@@ -3931,16 +3931,43 @@ img {
 
 
 #Gotas1-1 {
-  -webkit-animation: pulse 5s infinite linear;
-  -moz-animation: pulse 5s infinite linear;
-  animation: pulse 5s infinite linear;
+  -webkit-animation: pulse 35s infinite linear;
+  -moz-animation: pulse 35s infinite linear;
+  animation: pulse 35s infinite linear;
+
+  
 }
 
 #Gotas1-2 {
   -webkit-animation: pulse 15s infinite linear;
   -moz-animation: pulse 15s infinite linear;
   animation: pulse 15s infinite linear;
+  margin-left: 40% !important;
 }
+
+#Sun-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+#Sun-animation img {
+
+  left: 0;
+  top: -10%;
+  position: absolute;
+
+}
+
+
+#Sun1 {
+  -webkit-animation: pulse 15s infinite linear;
+  -moz-animation: pulse 15s infinite linear;
+  animation: pulse 15s infinite linear;
+}
+
 
 
 #Gotas-animation {
@@ -3960,16 +3987,13 @@ img {
 
 
 #Gotas1 {
-  -webkit-animation: pulse 5s infinite linear;
-  -moz-animation: pulse 5s infinite linear;
-  animation: pulse 5s infinite linear;
-}
-
-#Gotas2 {
   -webkit-animation: pulse 15s infinite linear;
   -moz-animation: pulse 15s infinite linear;
   animation: pulse 15s infinite linear;
+  margin-left: 40% !important;
 }
+
+
 
 #Hojas-animation {
   top: 0;
