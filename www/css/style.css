@@ -1950,7 +1950,17 @@ a.learn_more2{
 	border:1px solid #fff; color: #fff !important; padding: 7px;text-transform: uppercase;
 	font-weight: 200 !important;
 }
-
+.rates{
+      width: 72%;
+    float: left;
+    margin-left: 20px;
+}
+.Fleft{
+  float: left;
+}
+.mleft30{
+  padding-left: 30px;
+}
 .btn-lets{
 	border: 1px solid #fff;
 	padding: 10px;
@@ -2108,7 +2118,7 @@ margin-bottom: 30px;}
  .textTab{
       font-size: 16px !important;
     color: #fff !important;
-    width: 90%;
+    width: 95%;
     margin-left: 14px !important;
     /* text-align: justify !important; */
     margin-top: 20px !important;
@@ -4077,7 +4087,7 @@ img {
   margin-top: 30px; 
 }
 .programsHomeTitle{
-  font-size: 24px;
+  font-size: 20px;
   color: #878000;
   text-transform: uppercase;
    font-family: 'Raleway-Bold', sans-serif;
@@ -4085,17 +4095,17 @@ img {
 }
 
 .programsHomeTitleNumber {
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Raleway-Regular', sans-serif;
     text-align: left !important;
-    width: 20%;
+    width: 15%;
     float: left;
     margin-top: -8px;
 }
 .programsTextWhite{
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
 }
 #About h2{
@@ -4123,7 +4133,7 @@ img {
   background: rgba(0,0,0,0.4);
   padding: 10px;
   margin:  auto;
-  width: 40%;
+  width: 60%;
   text-align: center;
 }
 
@@ -4137,6 +4147,17 @@ img {
   padding-right: 30px;
   padding-left: 30px;
 }
+
+#ProgramsFishing .botonera button{
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ccc;
+  background: transparent;
+  padding-right: 30px;
+  padding-left: 30px;
+}
 #TripInfo h2{
   font-family: 'Raleway-Bold', sans-serif;
   font-size: 50px;
@@ -4144,7 +4165,109 @@ img {
   color: #818000;
 
 }
+#wekly ul li{
+  margin: 10px;
+  color: #fff;
+  font-size: 12px;
+}
 
+#wekly ul li h4{
+  font-size: 20px;
+  color: #808000;
+font-family: 'Raleway-Bold', sans-serif;
+text-align: left !important;
+
+}
+#wekly .icon{
+
+    width: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+#Programs1 .golden{
+  background:#868000;
+  color: #fff !important;
+  padding: 10px; 
+}
+#Programs1 .golden .programsHomeTitleNumber {
+    font-size: 50px;
+    color: #23190f;
+    text-transform: uppercase;
+    font-family: 'Raleway-Regular', sans-serif;
+    text-align: left !important;
+    width: 15%;
+    float: left;
+    margin-top: -8px;
+    margin-left: 10px
+}
+
+#Programs1 .golden .programsHomeTitle{
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+   font-family: 'Raleway-Bold', sans-serif;
+   text-align: left !important;
+}
+
+
+#Programs1 .golden .programsTextWhite{
+  font-size: 12px;
+  color: #23190f;
+}
+#Programs1 .golden .arrow-active-down {
+    width: 0;
+    height: 0;
+    border-top: 18px solid #868000;;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin-left: 50%;
+    padding-top: -11px;
+    top: 77px;
+    position: absolute;
+    z-index: 999;
+}
+#WATERS h2{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+
+}
+
+#AboutPrograms h2{
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+
+
+}
+
+#MENU a{
+  color: #808000;
+
+  font-family: 'Raleway-Bold', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.height52{
+  height: 52px;
+}
+.center{
+  text-align: center;
+}
+#MENU img{
+  display: block;
+  margin: auto;
+}
+.BRigth{
+  border-right: 1px solid #ccc;
+}
 #TripInfo{
   margin-bottom: 60px;
 }
@@ -4217,11 +4340,165 @@ img {
 .height360{
       height: 359px;
 }
+.height660{
+      height: 660px;
+}
 
+.height100{
+      height: 100%;
+      padding-bottom: 30px
+}
 .Gray{
   background: #e6e6e6;
   color: #23190f;
   padding: 30px;
+}
+
+ul.tabsPrograms {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    float: left;
+    border-left: 0px solid #ccc;
+}
+ul.tabsPrograms li {
+      background: none;
+    color: #888a8d;
+    /* display: inline-block; */
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway-semibold', sans-serif;
+    text-align: left;
+    border-bottom: 0px solid #ccc;
+    height: 55px;
+    text-align: center;
+    background: #fff;
+    margin: 0px;
+    border: 0px;
+    float: left;
+}
+
+ul.tabsPrograms li.current {
+    background: #938b14;
+    color: #fff;
+    height: 55px;
+}
+
+ul.tabsPrograms img.current {
+    display: block;
+}
+.tab-contents {
+ 
+    background: #fff;
+    width: 100%;
+    float: left;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e1b04;
+    height: 500px;
+}
+
+.native2{
+  background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420752/Tsimane/programs/high-secure.jpg);
+  background-size: cover;
+  height: 440px
+}
+.fish3{
+  background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420773/Tsimane/programs/short-trips-2-programs.jpg);
+  background-size: cover;
+  height: 490px
+}
+.image{
+  display: none;
+}
+
+.image.current{
+  display: block;
+}
+.titlewhite{
+   font-family: 'Raleway-Bold', sans-serif;
+   font-size: 50px;
+   color: #fff !important;
+   padding: 10px;
+   padding-left: 50px;
+   padding-top: 30px;
+
+}
+.ProgramsTabsDays {
+        width: 80%;
+    margin: -6% auto;
+    top: 20px;
+    z-index: 9999;
+    position: relative;
+    background: #fff !important;
+}
+.ProgramsList-col1 {
+    float: left;
+    width: 105px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 0%;
+}
+
+#Programs2 .golden {
+    background: #868000;
+    color: #fff !important;
+    padding: 14px;
+}
+#Programs2 .white {
+    background: #fff;
+    color: #fff !important;
+    padding: 14px;
+    text-align: center;
+
+}
+#Programs2 .white .programsHomeTitle {
+    font-size: 20px;
+    color: #808000;
+    text-transform: uppercase;
+    font-family: 'Raleway-Bold', sans-serif;
+    text-align: center !important;
+}
+
+#Programs2 .golden .programsHomeTitle {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway-Bold', sans-serif;
+    text-align: center !important;
+}
+#Weekly1-1 .backText {
+  line-height: 16px;
+  color: #fff;
+}
+.weekly1{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417915/Tsimane/programs/secure-river-weekly-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 460px
+}
+.weekly2{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417949/Tsimane/programs/agua-negra-weekly-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 540px
+}
+.weekly3{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417927/Tsimane/programs/chimoro-weekly-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px
+}
+.weekly4{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417905/Tsimane/programs/chimoro2-weekly-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px
 }
 @media  (min-width: 1440px) {
 	.body{

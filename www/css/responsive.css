@@ -11,6 +11,23 @@
    		display:inline-block;
    		margin:0 5px;
    	}
+
+   	.programsHomeTitleNumber {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway-Regular', sans-serif;
+    text-align: left !important;
+    width: 8%;
+    float: left;
+    margin-top: -8px;
+}
+.programsTextWhite {
+    font-size: 14px;
+    color: #fff;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
    	.home-trips {
    		min-height: 325px;
    	}
@@ -20,6 +37,17 @@
    	.home-weekly{
    		min-height: 325px;
    	}
+   	.height360 {
+    height: 455px !important;
+}
+
+#ProgramsFish .botonera {
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
    	.arrow-active-down {
    		width: 0;
    		height: 0;
@@ -803,6 +831,13 @@
 }.divButton{
   margin-left: 25%; width: 50%; margin-top: 15px
 }
+#ProgramsFish .botonera {
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
 
    }
    
@@ -854,6 +889,95 @@
 
    @media (max-width: 767px) {
    	/****Mobile Landscape 480 Container 100% ****/
+
+   	#ProgramsFish .botonera {
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.native2 {
+    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420752/Tsimane/programs/high-secure.jpg);
+    background-size: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+}
+#ProgramsFishing .botonera button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ccc;
+    background: transparent;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.ProgramsTabsDays {
+    width: 100%;}
+    ul.tabsPrograms li {
+    background: none;
+    color: #888a8d;
+    /* display: inline-block; */
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Raleway-semibold', sans-serif;
+    text-align: left;
+    border-bottom: 0px solid #ccc;
+    height: 55px;
+    text-align: center;
+    background: #fff;
+    margin: 0px;
+    border: 0px;
+    float: left;
+}
+.FishingList-col2 {
+    overflow: hidden;
+    font-size: 16px;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway-Light' !important;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+.BRigth {
+    border-right: 0px solid #ccc;
+    margin-bottom: 30px;
+}
+#REVIEWS {
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+#ProgramsFish .botonera button {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 147px;
+    margin-bottom: 10px;}
+    #ProgramsFish {
+    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1503417938/Tsimane/programs/book-now-1-weekly-program.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
 .CV {
        height: 145%;
     background: #23190f;
@@ -1339,18 +1463,35 @@
 				padding-right: 0px !important;
 			}
 			ul.tabs li {
-				font-size: 16px;
+				font-size: 12px;
 				height: 90px;
 			}
 			ul.tabs li.current {
 				background: #928000;
 				color: #fff;
 				height: 95px;
+				font-size: 12px;
 			}
 			ul.tabs li img {
 				margin-right: 10px;
 				display: block;
 			}
+			#TripInfo h2 {
+    margin-left: 20px;
+}
+.programsTextWhite{
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+#ProgramsFishing h2{
+	margin-left: 20px;
+}
+.lodgeAgua {
+    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417947/Tsimane/programs/accomodations-weekly-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
 			.textTab{
 				font-size: 13px !important;
 				color: #fff !important;
