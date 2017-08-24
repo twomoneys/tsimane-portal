@@ -4500,6 +4500,36 @@ ul.tabsPrograms img.current {
     background-size: cover;
     min-height: 300px
 }
+.weekly5{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420786/Tsimane/programs/pluma1-programs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 440px
+}
+.weekly6{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420792/Tsimane/programs/pluma2-programs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 490px
+}
+.weekly7{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420800/Tsimane/programs/pluma3-programs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 730px
+}
+.weekly8{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420771/Tsimane/programs/pluma4-programs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px
+}
+.weekly9{
+      background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420799/Tsimane/programs/pluma5-programs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px
+}
 @media  (min-width: 1440px) {
 	.body{
 		width: 1440px;
