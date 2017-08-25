@@ -1890,6 +1890,7 @@ a.learn_more2{
 	 font-size: 20px; 
 
   font-family: "Raleway-SemiBold";
+  padding: 10px;
 
 }
 .paddingLR{
@@ -1973,6 +1974,19 @@ a.learn_more2{
     margin: auto;
     margin-top: 50px;
     margin-right: 10px;
+}
+.btn-letsContact{
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+      width: 140px;
+    text-align: center;
+margin: auto;
+    margin-top: 50px;
+
 }
 .tsimaneTitleBrawn{
    font-family: "Raleway-Bold";
@@ -2295,6 +2309,7 @@ margin-bottom: 30px;}
     margin-bottom: 20px;
      letter-spacing : 2.6px;
   color : #3C3C3B;
+  text-align: left !important;
 }	
 
 
@@ -4403,7 +4418,7 @@ ul.tabsPrograms img.current {
     height: 500px;
 }
 
-.native2{
+.native3{
   background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420752/Tsimane/programs/high-secure.jpg);
   background-size: cover;
   height: 440px
