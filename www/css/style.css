@@ -1974,6 +1974,7 @@ a.learn_more2{
     margin: auto;
     margin-top: 50px;
     margin-right: 10px;
+    margin-left: 30%;
 }
 .btn-letsContact{
   border: 1px solid #fff;
@@ -2914,7 +2915,7 @@ img {
 .contact_section_contactUs{
 	background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500916729/Tsimane/contact-fish_aekdbj.jpg);
 	background-size: cover;
-	height: 453px;
+	height: 553px;
 
 }
 
@@ -2948,7 +2949,7 @@ img {
 
 .contact_section_follow{
 	background:#968000;
-	height: 453px;
+	height: 553px;
 }
 
 .contact_section_follow .contact_block{

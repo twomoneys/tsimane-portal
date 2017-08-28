@@ -12,6 +12,21 @@
    		margin:0 5px;
    	}
 
+   	.btn-lets {
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    width: 140px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 11px;
+    margin-left: 30% !important;
+}
+
    	.programsHomeTitleNumber {
     font-size: 60px;
     color: #fff;
@@ -1724,6 +1739,23 @@
     width: 90%;
 }.divButton{
   margin-left: 25%; width: 50%; margin-top: 15px
+}
+
+#Sun-animation {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+
+}
+#Sun-animation img {
+
+  left: 0;
+  top: -10%;
+  position: relative;
+
 }
 
 		}
