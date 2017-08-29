@@ -394,7 +394,10 @@ a, a:hover, a:active{ outline:0px !important}
     font-family: 'Raleway-Regular';
     src: url('../fonts/Raleway-Regular.ttf');
 }
-
+@font-face {
+    font-family: 'Raleway-SemiBoldItalic';
+    src: url('../fonts/Raleway-SemiBoldItalic.ttf');
+}
 #culture{
 	margin-bottom: 100px;
 }
@@ -556,7 +559,7 @@ margin-top: 0px;
 
 }
 .mtop20{
-  margin-top: 14%;
+  margin-top: 9%;
 }
 .mtop-50{
   margin-top: -30%;
@@ -576,7 +579,7 @@ margin-top: 0px;
 
 }
 .LodigingList{
-  width: 70%;
+  width: 80%;
    margin: 5% auto;
 }
 .whiteJungle h2{
@@ -600,30 +603,45 @@ margin-top: 0px;
   color : #3E1B04;
   color : rgb(62, 27, 4);
   margin-bottom: 10px;
-  	 font-family: "Raleway-Light"
+  	 font-family: 'Raleway-Regular',sans-serif;
 
 }
 
 .TitleBrawn{
-	font-size: 16px; 
-
+	
 	text-align: justify;  
-	 line-height : 20px;
-	 color : #3E1B04;
-	 color : rgb(62, 27, 4);
+	 font-size : 16px;
+  line-height : 24px;
+  color : #3E1B04;
+  color : rgb(62, 27, 4);
 	 margin-bottom: 20px;
-	 font-family: "Raleway-Bold";
+	 font-family: 'Raleway-Bold', sans-serif;
 }
+
 .PBT{
 	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-top: 40px;
+  background: #dfdfdf;
+}
+.PBT1{
+  padding-bottom: 15px;
+  padding-top: 16px;
+  background: #dfdfdf;
 }
 
 .textGolden{
-	    font-size: 10px;
+
     line-height: 15px;
     text-transform: uppercase;
+    font-size : 16px;
+  line-height : 21.21px;
+  letter-spacing : -0.38px;
+  color : #928000;
+  color : rgb(146, 128, 0);
+
+
 }
+
 .pictograma{
 	    margin-left: 10px;
     margin-top: 10px;
@@ -755,13 +773,13 @@ margin-top: 0px;
 
 .boxPerson {  
   
-    cursor: pointer;
-    height: 422px;
+   cursor: pointer;
+    height: 397px;
     float: left;
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 50px;  
+    margin-bottom: 22px;
   
 }  
   
@@ -819,7 +837,7 @@ margin-top: 0px;
 .box {  
   
     cursor: pointer;  
-    height: 144px;  
+    height: 135px;  
     float: left;  
     position: relative;  
     overflow: hidden;  
@@ -882,13 +900,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808014', end
     opacity: 1;  
 }  
 .titleTeam{
-    font-family: "Raleway-Bold";
+  font-family: "Raleway-Bold";
     font-size: 40px;
     color: #fff;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 45px;
     margin-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 46px;
     margin-bottom: 0px;
 
 }
@@ -1090,32 +1108,41 @@ padding: 10px ;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
+    margin-top: 20px;
 }
 #Tsimane2 h3{
     font-family: 'Raleway-bold';
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 34px;
   color: #fff;
   text-align: left !important;
+  margin-top: 
 }
 #Tsimane2 h2{
     font-family: 'Raleway-Heavy';
   text-transform: none;
-  font-size: 50px;
-  color: #fff;
+ font-size : 60px;
+  line-height : 33px;
+  letter-spacing : 0.9px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
   text-align: left !important;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 #Tsimane2 h4{
-    font-family: 'Raleway-SemiBold';
+    font-family: 'Raleway-SemiBoldItalic';
   
-  font-size: 30px;
-  color: #fff;
+  font-style : italic;
+  font-size : 34px;
+  line-height : 36px;
+  letter-spacing : 0.68px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
   text-align: left !important;
 }
 .brawn{
   background: #23190f;
-  padding: 10px;
+  padding: 20px;
 }
 .Fishing-slide1 {
     background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1502295714/Tsimane/slide-2-fishing.jpg);
@@ -1420,7 +1447,8 @@ font-size : 20px;
 }
 
 .backText h3{
-	font-size : 28px !important;
+	font-weight : bold;
+  font-size : 28px !important;
   line-height : 24px !important;
   letter-spacing : 1.4px !important;
   color : #FFFFFF !important;
@@ -1521,7 +1549,7 @@ ul.tabsTsimane{
      }
 
     ul.tabsTsimane li.current{
-      background: #928000;
+      background: #808000;
       color: #fff;
       height: 95px;
     }
@@ -1531,8 +1559,11 @@ ul.tabsTsimane{
     
     }
      ul.tabsTsimane li span{
-          font-size: 20px;
-    
+       font-family: 'Raleway-Bold', sans-serif;
+         font-weight : bold;
+  font-size : 21px;
+  line-height : 23px;
+  
     width: 70%;
     float: right;
 
@@ -1552,8 +1583,12 @@ ul.tabsTsimane{
     }
 
      .currents{
-      color: #23190f !important;
-      padding: 30px;
+       font-size : 16px;
+  line-height : 22px;
+  letter-spacing : 0.4px;
+  color : #23190F;
+  color : rgb(35, 25, 15);
+      padding: 50px;
       font-family: 'Raleway-Regular', sans-serif;
       font-size: 16px;
      }
@@ -1974,7 +2009,7 @@ a.learn_more2{
     margin: auto;
     margin-top: 50px;
     margin-right: 10px;
-    margin-left: 30%;
+
 }
 .btn-letsContact{
   border: 1px solid #fff;
@@ -1983,7 +2018,7 @@ a.learn_more2{
   font-size: 18px;
   font-weight: 200;
   font-family: 'Raleway', sans-serif;
-      width: 140px;
+      width: 150px;
     text-align: center;
 margin: auto;
     margin-top: 50px;
@@ -1996,9 +2031,12 @@ margin: auto;
 
 }
 .tsimaneTitleBrawn span{
-   font-family: "Raleway-SemiBold";
+   font-family: "Raleway-SemiBoldItalic";
    font-size: 36px;
-   color:#808000;
+    line-height : 44.17px;
+  letter-spacing : 0.36px;
+  color : #808000;
+  color : rgb(128, 128, 0);
    
 }
 .tsimaneDiv{
@@ -2008,9 +2046,10 @@ margin: auto;
 .tsimaneDiv  p, .tsimaneTitleBrawn{
   margin-left: 15%;margin-right: 15%;
   width: 70%;
+ 
 }
 .CV{
-  height: 865px; 
+  height: 811px; 
   background: #23190f;
   color: #fff;
   font-family: "Raleway-Regular";
@@ -2020,10 +2059,30 @@ margin: auto;
 }
 .CV p{
   padding: 30px;
-   font-family: "Raleway-Regular";
-   font-size: 16px;
-   line-height: 24px
+   font-family: "Raleway-Light";
+   font-size: 17px;
+   line-height: 24px;
    padding-top:10px;
+}
+.cv-content{
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+}
+.CV .name{
+  padding: 30px;
+   font-family: "Raleway-Bold";
+   font-size: 17px;
+   line-height: 24px;
+   padding-top:30px;
+}
+.CV .cargo{
+
+   font-family: "Raleway-SemiBoldItalic";
+   font-size: 17px;
+   line-height: 24px;
+   padding-top:30px;
+   font-weight: 300;
 }
 .CV a{
 
@@ -2048,7 +2107,7 @@ margin: auto;
     font-size: 25px;
     float: right;
     padding-right: 30px;
-    padding-top: 100px;
+
     bottom: 0px;
     cursor: pointer;
 }
@@ -2059,7 +2118,7 @@ margin: auto;
     font-size: 25px;
     float: right;
     padding-right: 30px;
-    padding-top: 100px;
+
     bottom: 0px;
     cursor: pointer;
 }
@@ -2335,7 +2394,7 @@ margin-bottom: 30px;}
 }
 
 .work_section { 
-	padding:40px;
+	padding-top:40px;
 }
 
 
@@ -2895,36 +2954,37 @@ img {
 ---------------------------------*/
 
  .contact_section_contactUs h3{
-	font-size : 30px;
+	font-size : 50px;
   line-height : 58px;
   letter-spacing : 4.5px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   padding-bottom: 30px;
+    font-family: 'Raleway-Heavy', sans-serif;
 
 }
 .contact_section_follow  h3{
-	font-size : 30px;
+	font-size : 50px;
   line-height : 58px;
   letter-spacing : 4.5px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   padding-bottom: 30px;
+     font-family: 'Raleway-Heavy', sans-serif;
 
 }
 .contact_section_contactUs{
 	background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1500916729/Tsimane/contact-fish_aekdbj.jpg);
 	background-size: cover;
-	height: 553px;
+	height: 700px;
 
 }
 
 .contact_section_contactUs .contact_block{
 	    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    width: 55%;
+    margin: 20%;
+   
 }
 .contact_section_contactUs .contact_block a.mail{
 	font-size : 20px;
@@ -2932,7 +2992,16 @@ img {
   letter-spacing : 2px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway-Medium', sans-serif;
+}
+
+.contact_section_contactUs .contact_block  a.Consulting{
+  font-size : 20px;
+  line-height : 25px;
+  letter-spacing : 2px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  font-family: 'Raleway-Bold', sans-serif;
 }
 
  .contact_block a.mail{
@@ -2943,21 +3012,29 @@ img {
   color : rgb(255, 255, 255);
   font-family: 'Raleway', sans-serif;
 }
+
+ .contact_block a.Consulting{
+  font-size : 20px;
+  line-height : 25px;
+  letter-spacing : 2px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  font-family: 'Raleway-Bold', sans-serif;
+}
 .main-section.contact{
 	padding:50px 0 20px;
 }
 
 .contact_section_follow{
 	background:#968000;
-	height: 553px;
+	height: 700px;
 }
 
 .contact_section_follow .contact_block{
 	    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    width: 55%;
+    margin:20%;
+   
 }
 
 .contact_section_Agents img{
@@ -4578,6 +4655,76 @@ ul.tabsPrograms img.current {
 
    font-family: 'Raleway-Italic', sans-serif;
 }
+
+.golden3{
+  background: #808000;
+}
+.golden4{
+  background: #928000;
+}
+.tsimanetext{
+   font-family: 'Raleway-Light', sans-serif;
+  font-style : italic;
+  font-size : 18px;
+  line-height : 24px;
+  letter-spacing : 0.18px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.tsimanetext2{
+   font-family: 'Raleway-SemiBoldItalic', sans-serif;
+font-weight : bold;
+  font-style : italic;
+  font-size : 16px;
+  line-height : 20px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  }
+.tsimanetext3{
+   font-family: 'Raleway-SemiBoldItalic', sans-serif;
+   font-style : italic;
+  font-size : 19px;
+  line-height : 27px;
+  letter-spacing : 0.38px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  margin-top: 15px;
+}
+
+.paddigLeft30{
+  padding-left: 30px !important;
+}
+
+.fishing-list{
+  font-size : 18px !important;
+  line-height : 25px !important;
+  letter-spacing : 0.36px !important;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+    font-family: 'Raleway-Regular', sans-serif !important;
+    font-weight: 300;
+}
+.LodigingList p{
+  font-size : 16px !important;
+  line-height : 23px !important;
+  letter-spacing : 0.16px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+font-family: 'Raleway-Regular', sans-serif !important;}
+.LodigingList b{
+  font-size : 16px !important;
+  line-height : 23px !important;
+  letter-spacing : 0.16px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+font-family: 'Raleway-Bold', sans-serif !important;}
+.weather{
+  background: #dfdfdf; color: #928000; font-size: 17px;  width: 100%;margin-bottom: 20px;
+  height: 115px;
+  margin-bottom: 70px;
+}
+
+.
 @media  (min-width: 1440px) {
 	.body{
 		width: 1440px;

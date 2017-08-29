@@ -1,7 +1,13 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
+@media only screen and (min-width: 1080px) and (max-width: 1280px) {
+   	.content-menu {
+    width: 1440px;
+    text-align: right;
+    display: block;
+    margin-left: 96%;
+}}
 
    @media only screen and (min-width: 768px) and (max-width: 1080px) {
    	.portfolioContainer { margin:0px auto;}
@@ -25,6 +31,12 @@
     margin-top: 50px;
     margin-right: 11px;
     margin-left: 30% !important;
+}
+.content-menu {
+    width: 1440px;
+    text-align: right;
+    display: block;
+    margin-left: 96%;
 }
 
    	.programsHomeTitleNumber {
@@ -1323,6 +1335,9 @@
 				margin-left: 20px;
 				margin-right: 20px;
 			}
+			.paddigLeft30{
+				padding-left: 15px !important;
+			}
 			.textCEl{
 				margin-left: 20px;
 				margin-right: 20px;
@@ -1756,6 +1771,10 @@
   top: -10%;
   position: relative;
 
+}
+.weather{
+  background: #dfdfdf; color: #928000; font-size: 17px;  width: 100%;margin-bottom: 20px;
+  height: 100%;
 }
 
 		}
