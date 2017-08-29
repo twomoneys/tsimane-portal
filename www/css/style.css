@@ -399,7 +399,7 @@ a, a:hover, a:active{ outline:0px !important}
 	margin-bottom: 100px;
 }
 .golden{
-	background: #928000;
+	background: #818000;
 }
 #culture p{
 	font-size : 15px;
@@ -434,12 +434,12 @@ strong{
 }
 
 .top78{
-  top: 78px !important;
+  top: 99px !important;
 }
 .arrow-active-down{
 	    width: 0;
     height: 0;
-    border-top: 18px solid #928000;
+    border-top: 18px solid #818000;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     margin-left: 45%;
@@ -1023,8 +1023,8 @@ padding: 10px ;
         background: #fff;
     width: 80%;
     margin-left: 10%;
-    height: 79px;
-    margin-top: -79px;
+    height: 100px;
+    margin-top: -99px;
     z-index: 4;
     display: block;
     position: sticky;
@@ -1144,7 +1144,7 @@ padding: 10px ;
 
 #Fishing .menu .activeMenu2 {
     background: #928000;
-    padding-bottom: 9px;
+    padding-bottom: 20px;
 }
 
 #Fishing .menu .activeMenu2 a{
@@ -1486,10 +1486,10 @@ font-size : 20px;
     width: 98%;
     margin: 5% auto;}
 .padding22{
-  padding-top: 22px;
+  padding-top: 35px;
 }
 .padding10{
-  padding-top: 10px;
+  padding-top: 20px;
 }
 ul.tabsTsimane{
     margin: 0px;
@@ -1899,7 +1899,7 @@ a.learn_more2{
 }
 
 .aboutText{
-	background-color: #938414;
+	background-color: #808000;
 	color: #ffffff;
 	font-size: 12px;
 	 font-family: 'Raleway', sans-serif;
@@ -2133,10 +2133,10 @@ margin-bottom: 30px;}
  .textTab{
       font-size: 16px !important;
     color: #fff !important;
-    width: 95%;
-    margin-left: 14px !important;
+    width: 80%;
+    margin-left: 58px !important;
     /* text-align: justify !important; */
-    margin-top: 20px !important;
+    margin-top: 50px !important;
     }
 
     #stars {
@@ -4227,7 +4227,7 @@ text-align: left !important;
 
 }
 #Programs1 .golden{
-  background:#868000;
+  background:#818000;
   color: #fff !important;
   padding: 10px; 
 }
@@ -4486,7 +4486,7 @@ ul.tabsPrograms img.current {
 }
 
 #Programs2 .golden {
-    background: #868000;
+    background: #818000;
     color: #fff !important;
     padding: 14px;
 }
@@ -4569,6 +4569,14 @@ ul.tabsPrograms img.current {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 570px
+}
+.BackgroundGolden{
+  background: #818000 !important;
+}
+
+#wekly .programsTextWhite{
+
+   font-family: 'Raleway-Italic', sans-serif;
 }
 @media  (min-width: 1440px) {
 	.body{
