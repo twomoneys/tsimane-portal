@@ -7,6 +7,28 @@
     text-align: right;
     display: block;
     margin-left: 96%;
+}
+.homePrograms h3 {
+    background: #928000;
+    color: #fff;
+    font-size: 28px;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-family: "Raleway-Bold";
+}
+.home-trips {
+    min-height: 323px;
+}
+.home-expeditions {
+    min-height: 323px;
+}
+.home-weekly {
+    background: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 323px;
 }}
 
    @media only screen and (min-width: 768px) and (max-width: 1080px) {
