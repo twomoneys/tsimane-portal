@@ -1,4 +1,4 @@
-/* Global Styling */
+ /* Global Styling */
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200italic,200,100,100italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800);
 
 
@@ -398,6 +398,10 @@ a, a:hover, a:active{ outline:0px !important}
     font-family: 'Raleway-SemiBoldItalic';
     src: url('../fonts/Raleway-SemiBoldItalic.ttf');
 }
+@font-face {
+    font-family: 'Myriad';
+    src: url('../fonts/MyriadPro-Regular.ttf');
+}
 #culture{
 	margin-bottom: 100px;
 }
@@ -447,7 +451,7 @@ strong{
     border-right: 15px solid transparent;
     margin-left: 45%;
     padding-top: -11px;
-    top: 53px;
+    top: 65px;
     position: absolute;
     z-index: 999;
 }
@@ -4213,8 +4217,10 @@ img {
   margin-top: 30px; 
 }
 .programsHomeTitle{
-  font-size: 20px;
-  color: #878000;
+  font-size : 30px;
+  line-height : 30.24px;
+  color : #898000;
+  color : rgb(137, 128, 0);
   text-transform: uppercase;
    font-family: 'Raleway-Bold', sans-serif;
    text-align: left !important;
@@ -4295,11 +4301,19 @@ img {
   margin: 10px;
   color: #fff;
   font-size: 12px;
+    font-family: 'Raleway-Regular', sans-serif;
+       font-size : 15px;
+  line-height : 23px;
+  letter-spacing : -0.17px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
 }
 
 #wekly ul li h4{
-  font-size: 20px;
-  color: #808000;
+font-size : 21px;
+  line-height : 19.7px;
+  color : #858000;
+  color : rgb(133, 128, 0);
 font-family: 'Raleway-Bold', sans-serif;
 text-align: left !important;
 
@@ -4311,6 +4325,7 @@ text-align: left !important;
     display: inline-block;
     margin-bottom: 10px;
 
+
 }
 #Programs1 .active{
       margin-top: -21px;
@@ -4321,7 +4336,8 @@ text-align: left !important;
 #Programs1 .golden{
   background:#818000;
   color: #fff !important;
-  padding: 20px; 
+      padding-bottom: 20px !important;
+    padding-top: 41px !important;
 }
 #Programs1 .golden .programsHomeTitleNumber {
     font-size: 50px;
@@ -4336,8 +4352,11 @@ text-align: left !important;
 }
 
 #Programs1 .golden .programsHomeTitle{
-  font-size: 20px;
-  color: #fff;
+ font-size : 33px;
+  line-height : 30.24px;
+  letter-spacing : 1.32px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
   text-transform: uppercase;
    font-family: 'Raleway-Bold', sans-serif;
    text-align: left !important;
@@ -4598,9 +4617,11 @@ ul.tabsPrograms img.current {
 }
 
 #Programs2 .golden .programsHomeTitle {
-    font-size: 20px;
-    color: #fff;
-    text-transform: uppercase;
+      font-size : 28px;
+  line-height : 33.6px;
+  letter-spacing : 1.4px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
     font-family: 'Raleway-Bold', sans-serif;
     text-align: center !important;
 }
@@ -4670,6 +4691,13 @@ ul.tabsPrograms img.current {
 
    font-family: 'Raleway-Italic', sans-serif;
 }
+
+#wekly .programsTextWhite2{
+font-size : 17px;
+  line-height : 30px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+ font-family: 'Myriad', sans-serif;}
 
 .golden3{
   background: #808000;
@@ -4808,6 +4836,15 @@ font-family: 'Raleway-Bold', sans-serif !important;}
     background-size: cover;
 }
 
+.mleft120{
+  margin-left: 120px;
+}
+.mRight106{
+  margin-right: 106px;
+}
+.paddingBottom65{
+  padding-bottom: 65px;
+}
 @media  (min-width: 1440px) {
 	.body{
 		width: 1440px;
