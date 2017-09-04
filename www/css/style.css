@@ -1055,11 +1055,16 @@ padding: 10px ;
 }
 #Fishing .menu .activeMenu{
         background: #808000;
-     padding-bottom: 34px;
+    padding-bottom: 36px;
+    color: #fff;
 }
 #Fishing .menu .activeMenu a{
     color: #fff;
     cursor: pointer;
+}
+
+.bottommenu{
+      padding-bottom: 23px !important;
 }
 #Fishing .menu a {
   cursor: pointer;
@@ -1627,7 +1632,7 @@ height: 71px;
      }
 
     ul.tabs li.current{
-      background: #938b14;
+      background:#928000;
       color: #fff;
       height: 75px;
     }
@@ -1644,16 +1649,16 @@ height: 71px;
     }
 
     .tab-content{
-      display: none;
-     background: #938b14;
-   
+        display: none;
+    background: #938b14;
     width: 70%;
     float: left;
     height: 100%;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    height: 500px;
+    height: auto;
+        min-height: 359px;
     }
 
     .tab-content.current{
@@ -1933,6 +1938,18 @@ a.learn_more2{
   padding: 10px;
 
 }
+
+.learnMoreBtn:hover{
+  text-transform: uppercase;
+   background: #928000;
+   border:0px solid #6f6f6e; 
+   color: #fff; 
+   font-size: 20px; 
+
+  font-family: "Raleway-SemiBold";
+  padding: 10px;
+
+}
 .paddingLR{
 	padding-right: 0px !important;
 	padding-left: 0px !important;
@@ -1988,8 +2005,20 @@ a.learn_more2{
 }
 
 .btn-bookNow{
-	border:1px solid #fff; color: #fff !important; padding: 7px;text-transform: uppercase;
+	border:1px solid #fff;
+   color: #fff !important; 
+   padding: 7px;
+   text-transform: uppercase;
 	font-weight: 200 !important;
+}
+
+.btn-bookNow:hover{
+  border:0px solid #fff;
+   color: #fff !important; 
+   padding: 7px;
+   text-transform: uppercase;
+  font-weight: 200 !important;
+  background: #928000;
 }
 .rates{
       width: 72%;
@@ -2437,9 +2466,7 @@ margin-bottom: 10px
   	
 }
 
-.service-list-col2 p{
-	margin-bottom: 0px!important;
-}
+
 .main-section.alabaster{
 	background:#fafafa;
 }
@@ -4286,8 +4313,8 @@ img {
     text-transform: uppercase;
     color: #ccc;
     background: transparent;
-    padding-right: 63px;
-    padding-left: 63px;
+    padding-right: 62px;
+    padding-left: 62px;
     border: 0px;
     border-right: 1px solid #ccc;
     margin-bottom: 5px;
@@ -4357,7 +4384,7 @@ text-align: left !important;
 }
 
 #Programs1 .golden .programsHomeTitle{
- font-size : 33px;
+ font-size : 26px;
   line-height : 30.24px;
   letter-spacing : 1.32px;
   color : #FFFFFF;
@@ -4532,7 +4559,7 @@ ul.tabsPrograms li {
     font-family: 'Raleway-semibold', sans-serif;
     text-align: left;
     border-bottom: 0px solid #ccc;
-    height: 61px;
+    height: 71px;
     text-align: center;
     background: #fff;
     margin: 0px;
@@ -4543,7 +4570,7 @@ ul.tabsPrograms li {
 ul.tabsPrograms li.current {
     background: #818000;
     color: #fff;
-    height: 61px;
+    height: 71px;
 }
 
 ul.tabsPrograms img.current {
@@ -4897,9 +4924,42 @@ font-family: 'Raleway-Bold', sans-serif !important;}
     position: absolute;
     /* left: 16%; */
     z-index: 99000;
-    top: 58px;
+    top: 70px;
   }
 
+.tabsarrowtsimane{
+    margin-left: 10% !important;
+    top: 94px !important;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #fff;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin-left: 7%;
+    padding-top: 0px;
+    position: absolute;
+    /* left: 16%; */
+    z-index: 99000;
+ display: block;
+
+}
+.arrow-tabs2{
+  display: none;
+}
+.arrow-tabs2.current{
+      display: block;
+    width: 0;
+    height: 0;
+    border-left: 15px solid #928000;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    margin-left: 28%;
+    padding-top: 0px;
+    position: absolute;
+    /* left: 16%; */
+    z-index: 99000;
+    margin-top: 12px;
+  }
   #ProgramsFish .botonera2 {
     background: rgba(0,0,0,0.4);
     padding: 10px;
@@ -4946,16 +5006,26 @@ font-family: 'Raleway-Bold', sans-serif !important;}
     z-index: 999;
 }
 .arrow-active-Right-Programs {
-    width: 0;
+   width: 0;
     height: 0;
-    border-right: : 30px solid #928000;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    left: 101%;
+    border-right: 20px solid #818000;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-left: -35px;
     padding-top: 0px;
-    top: 287px;
+    top: 207px;
     position: relative;
-    z-index: 999;
+}
+.arrow-active-Left-Programs {
+   width: 0;
+    height: 0;
+    border-left: 20px solid #818000;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-left: 8px;
+    padding-top: 0px;
+    top: 207px;
+    position: relative;
 }
 .mbotton21{
   margin-bottom: 21px !important

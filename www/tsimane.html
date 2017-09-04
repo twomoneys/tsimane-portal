@@ -208,16 +208,32 @@
 										<div class="TsimaneList">
 
 											<ul class="tabsTsimane">
-												<li class="tab-link current" data-tab="tab-1"><i class=" icon-communities-2-tsimane"></i><span> INVOLVING<br/>
-													LOCAL<br/>
-													COMMUNITIES</span></li>
-													<li class="tab-link" data-tab="tab-2"><i class=" icon-environmental-2-tsimane"></i><span class="mtop13">ENVIRONMENTAL<br/>
-														STEWARDSHIP</span> </li>
-														<li class="tab-link" data-tab="tab-3"><i class=" icon-working-2-tsimane"></i> <span class="mtop13">WORKING WITH<br/>
-															LEGAL AUTHORITIES</span></li>
-															<li class="tab-link" data-tab="tab-4"><i class=" icon-world-class-2-tsimane"></i><span>WORLD CLASS<br/>
+												<li class="tab-link current" data-tab="tab-1" data-div="div-arrow-1" >
+													<div class="arrowTabs arrow-tabs tabsarrowtsimane current" id="div-arrow-1"> </div>
+													<i class=" icon-communities-2-tsimane"></i>
+													<span> INVOLVING<br/>
+														LOCAL<br/>
+														COMMUNITIES</span>
+												</li>
+													<li class="tab-link" data-tab="tab-2" data-div="div-arrow-2" >
+														<div class="arrowTabs arrow-tabs tabsarrowtsimane" id="div-arrow-2"> </div>
+														<i class=" icon-environmental-2-tsimane"></i>
+														<span class="mtop13">ENVIRONMENTAL<br/>
+															STEWARDSHIP</span>
+													 </li>
+														<li class="tab-link" data-tab="tab-3" data-div="div-arrow-3" >
+																<div class="arrowTabs arrow-tabs tabsarrowtsimane" id="div-arrow-3"> </div>
+																<i class=" icon-working-2-tsimane"></i> 
+																<span class="mtop13">WORKING WITH<br/>
+															LEGAL AUTHORITIES</span>
+														</li>
+														<li class="tab-link" data-tab="tab-4" data-div="div-arrow-4" >
+																<div class="arrowTabs arrow-tabs tabsarrowtsimane" id="div-arrow-4"> </div>
+																<i class=" icon-world-class-2-tsimane"></i>
+																<span>WORLD CLASS<br/>
 																CATCH AND RELEASE <br/>
-																FLY FISHING</span> </li>
+																FLY FISHING</span>
+														 </li>
 
 															</ul>
 
@@ -324,21 +340,25 @@
 																		-->
 																	</div>
 
+																
+
 																	<script type="text/javascript">
-																		$(document).ready(function(){
-
-																			$('ul.tabsTsimane li').click(function(){
-																				var tab_id = $(this).attr('data-tab');
-
-																				$('ul.tabsTsimane li').removeClass('current');
-																				$('.tab-content').removeClass('current');
-
-																				$(this).addClass('current');
-																				$("#"+tab_id).addClass('current');
-																			})
-
-																		})
-																	</script>								
+																				$(document).ready(function(){
+																					$('ul.tabsTsimane li').click(function(){
+																						var tab_id = $(this).attr('data-tab');
+																						
+																						var div_id = $(this).attr('data-div');
+																						$('ul.tabsTsimane li').removeClass('current');
+																						$('.tab-content').removeClass('current');
+																						
+																						$('.arrow-tabs').removeClass('current');
+																						$(this).addClass('current');
+																						$("#"+tab_id).addClass('current');
+																						
+																						$('#' + div_id).addClass('current')
+																					})
+																				})
+																			</script>								
 
 
 
@@ -814,9 +834,7 @@
 
 																		<!--ABOUT-->
 
-
-																		<!--twitter-feed-end-->
-									<footer class="footer_section" id="contact">
+		<footer class="footer_section" id="contact">
 									<div class="container">
 										<section class="main-section contact" id="contact">
 											<div class="contact_section">
@@ -851,34 +869,35 @@
 															<div class="contact_block follow_footer">
 																<h3>Follow Us</h3>
 																<div class="line"></div>
-																<a href="https://www.instagram.com/tsimanelodges/" target="_blank" class="animated bounceIn wow delay-02s">
-																	<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388138/Tsimane/ig2_w1moin.png"/></a>
-																	<a href="https://www.facebook.com/tsimane.lodges" target="_blank" class="animated bounceIn wow delay-03s">
-																		<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388135/Tsimane/fb2_vympt3.png"/>
-																	</a>
-																	<a href="
-																	https://www.youtube.com/channel/UCzMo7oZoU77J0AnRlffLEAg" target="_blank" class="animated bounceIn wow delay-04s">
-																	<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388154/Tsimane/yt_ht6yzf.png"/></a>
-																	<a href="https://twitter.com/TsimaneLodges" target="_blank"class="animated bounceIn wow delay-05s">
+																<a href="
+																	https://www.youtube.com/channel/UCzMo7oZoU77J0AnRlffLEAg" target="_blank" class="animated bounceIn wow delay-02s">
+																	<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388154/Tsimane/yt_ht6yzf.png"/>
+																</a>
+																<a href="https://vimeo.com/tsimanelodges" target="_blank" class="animated bounceIn wow delay-03s">
+																		<img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1502811809/Tsimane/vimeo3.png">
+																</a>
+																<a href="https://twitter.com/TsimaneLodges" target="_blank" class="animated bounceIn wow delay-04s">
 																		<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388148/Tsimane/tw_v6rhkt.png"/>
-																	</a>
-																	<a href="https://vimeo.com/tsimanelodges" target="_blank" class="animated bounceIn wow delay-06s">
-																	<img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1502811809/Tsimane/vimeo3.png">
-																	</a>
-																	<span><a href="#" class="btn-letsDorado"> LET’S TALK</a>
-																		<p style="color: #928000; font-size: 15px;">chat Online !</p></span> </div>
-																	</div>
-																</div>
+																</a>
+																<a href="https://www.instagram.com/tsimanelodges/" target="_blank" class="animated bounceIn wow delay-05s">
+																	<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388138/Tsimane/ig2_w1moin.png"/>
+																</a>
+																<a href="https://www.facebook.com/tsimane.lodges" target="_blank" class="animated bounceIn wow delay-06s">
+																		<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500388135/Tsimane/fb2_vympt3.png"/>
+																</a>
 															</div>
-
-														</section>
+														</div>
 													</div>
+												</div>
 
-												</footer>
+											</section>
+										</div>
 
-																						<div>
-																							<div class="footer_bottom"> <a href="http://paolacamano.com.ar">Copyright 2017 - Diseño PCD - All rights reserved </a> </div>
-																						</div>
+									</footer>
+
+												<div>
+													<div class="footer_bottom"> <a href="http://paolacamano.com.ar"><img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1504533444/Tsimane/copyright.png"> </a> </div>
+												</div>
 																						<script type="text/javascript">
 																							$(document).ready(function(e) {
 																								$('#header_outer').scrollToFixed();
