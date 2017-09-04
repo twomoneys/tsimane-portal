@@ -4269,7 +4269,7 @@ img {
   text-align: center;
 }
 
-#ProgramsFish .botonera button{
+#ProgramsFish .botonera2 button{
   border: 1px solid #fff;
   padding: 10px;
   text-align: center;
@@ -4280,15 +4280,20 @@ img {
   padding-left: 30px;
 }
 
-#ProgramsFishing .botonera button{
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ccc;
-  background: transparent;
-  padding-right: 30px;
-  padding-left: 30px;
+#ProgramsFishing .btnFishing{
+      padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ccc;
+    background: transparent;
+    padding-right: 63px;
+    padding-left: 63px;
+    border: 0px;
+    border-right: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 23px;
+    padding-top: 24px;
 }
 #TripInfo h2{
   font-family: 'Raleway-Bold', sans-serif;
@@ -4381,9 +4386,11 @@ text-align: left !important;
 }
 #WATERS h2{
   font-family: 'Raleway-Bold', sans-serif;
-  font-size: 50px;
+   font-size : 50px;
+  letter-spacing : 2.5px;
+  color : #818000;
+  color : rgb(129, 128, 0);
   text-align: left;
-  color: #fff;
 
 }
 
@@ -4525,7 +4532,7 @@ ul.tabsPrograms li {
     font-family: 'Raleway-semibold', sans-serif;
     text-align: left;
     border-bottom: 0px solid #ccc;
-    height: 55px;
+    height: 61px;
     text-align: center;
     background: #fff;
     margin: 0px;
@@ -4534,9 +4541,9 @@ ul.tabsPrograms li {
 }
 
 ul.tabsPrograms li.current {
-    background: #938b14;
+    background: #818000;
     color: #fff;
-    height: 55px;
+    height: 61px;
 }
 
 ul.tabsPrograms img.current {
@@ -4551,7 +4558,7 @@ ul.tabsPrograms img.current {
     font-size: 16px;
     line-height: 24px;
     color: #3e1b04;
-    height: 500px;
+    margin-bottom: 70px
 }
 
 .native3{
@@ -4583,7 +4590,7 @@ ul.tabsPrograms img.current {
 .ProgramsTabsDays {
         width: 80%;
     margin: -6% auto;
-    top: 20px;
+    top: 14px;
     z-index: 9999;
     position: relative;
     background: #fff !important;
@@ -4844,6 +4851,114 @@ font-family: 'Raleway-Bold', sans-serif !important;}
 }
 .paddingBottom65{
   padding-bottom: 65px;
+}
+
+.botonera{
+  width: 80%;
+  border: 1px solid #a9abac;
+  margin: auto 10%;
+  padding-bottom: 26px;
+  padding-top: 26px;
+}
+
+  .botonera{
+    width: 80%;
+    border: 1px solid #a9abac;
+    margin: auto 10%;
+    padding-bottom: 26px;
+    padding-top: 26px;
+  }
+  .arrow-tabs{
+    width: 0;
+    height: 0;
+    border-top: 20px solid #928000;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin-left: 7%;
+    padding-top: 0px;
+    position: absolute;
+    /* left: 16%; */
+    z-index: 99000;
+    display: none;
+    
+  }
+  .arrowTabs{
+    display: none;
+  }
+  .arrow-tabs.current{
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #818000;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin-left: 7%;
+    padding-top: 0px;
+    position: absolute;
+    /* left: 16%; */
+    z-index: 99000;
+    top: 58px;
+  }
+
+  #ProgramsFish .botonera2 {
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    text-align: center;}
+
+  .FishingList-col2 p{
+     font-size : 15px;
+  line-height : 20px;
+  letter-spacing : 0.3px;
+  color : #3E1B04 !important;
+  color : rgb(62, 27, 4);
+  }
+
+.programstext4{
+   font-size : 16px;
+  line-height : 21px;
+  letter-spacing : -0.4px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+   font-family: 'Raleway-Regular', sans-serif !important;
+
+}
+.pAccomodations{
+  font-size : 16px;
+  line-height : 20px;
+  color : #23190F;
+  color : rgb(35, 25, 15);
+  font-family: 'Raleway-Regular', sans-serif !important;
+
+}
+
+.arrow-active-Left-Programs {
+    width: 0;
+    height: 0;
+    border-left: 30px solid #928000;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    left: 101%;
+    padding-top: 0px;
+    top: 287px;
+    position: relative;
+    z-index: 999;
+}
+.arrow-active-Right-Programs {
+    width: 0;
+    height: 0;
+    border-right: : 30px solid #928000;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    left: 101%;
+    padding-top: 0px;
+    top: 287px;
+    position: relative;
+    z-index: 999;
+}
+.mbotton21{
+  margin-bottom: 21px !important
 }
 @media  (min-width: 1440px) {
 	.body{

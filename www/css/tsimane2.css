@@ -60,7 +60,7 @@
 }
  
 .icon-accomodation:before { content: '\e800'; } /* '' */
-.icon-check-2programs-weekly:before { content: '\e801'; } /* '' */
+.icon-check-2programs-weekly:before { content: '\e801';width: 20%;float: left;font-size: 50px  } /* '' */
 .icon-check-boxprograms-weekly:before { content: '\e802'; } /* '' */
 .icon-checklistprograms-weekly:before { content: '\e803'; } /* '' */
 .icon-day-8-hotelprograms-weekly:before { content: '\e804'; } /* '' */
@@ -68,15 +68,15 @@
 .icon-day-9-pick-upprograms-weekly:before { content: '\e806'; } /* '' */
 .icon-day-fishingprograms-weekly:before { content: '\e807'; } /* '' */
 .icon-day1-guidesprograms-weekly:before { content: '\e808'; } /* '' */
-.icon-documentsprograms-weekly:before { content: '\e80a'; } /* '' */
+.icon-documentsprograms-weekly:before { content: '\e80a';     width: 20%;float: left;font-size: 50px } /* '' */
 .icon-downloadprograms-weekly:before { content: '\e80b'; } /* '' */
 .icon-exclusionprograms-weekly:before { content: '\e80c'; } /* '' */
 .icon-fees-2programs-weekly:before { content: '\e80d'; } /* '' */
 .icon-feesprograms-weekly:before { content: '\e80e'; } /* '' */
 .icon-fishing-btnprograms-weekly:before { content: '\e80f'; } /* '' */
-.icon-flightsprograms-weekly:before { content: '\e810'; } /* '' */
-.icon-heath-2programs-weekly:before { content: '\e811'; } /* '' */
-.icon-hotelprograms-weekly:before { content: '\e812'; } /* '' */
+.icon-flightsprograms-weekly:before { content: '\e810';    width: 20%;float: left;font-size: 50px } /* '' */
+.icon-heath-2programs-weekly:before { content: '\e811';  width: 20%;float: left;font-size: 50px  } /* '' */
+.icon-hotelprograms-weekly:before { content: '\e812';  width: 20%;float: left;font-size: 50px  } /* '' */
 .icon-indian-assoc-programs-weekly:before { content: '\e813'; } /* '' */
 .icon-itinerary-btnprograms-weekly:before { content: '\e814'; } /* '' */
 .icon-itineraryprograms-weekly:before { content: '\e815'; } /* '' */
@@ -90,4 +90,6 @@
 .icon-reviews-btnprograms-weekly:before { content: '\e81d'; } /* '' */
 .icon-transfers-2programs-weekly:before { content: '\e81e'; } /* '' */
 .icon-trip-info-btnprograms-weekly:before { content: '\e81f'; } /* '' */
-.icon-weather-2programs-weekly:before { content: '\e820'; } /* '' */
+.icon-weather-2programs-weekly:before { content: '\e820';     width: 20%;
+    float: left;
+    font-size: 50px } /* '' */

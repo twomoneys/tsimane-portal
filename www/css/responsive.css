@@ -1,223 +1,228 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (min-width: 1080px) and (max-width: 1280px) {
+   @media only screen and (min-width: 1080px) and (max-width: 1280px) {
    	.content-menu {
-    width: 1440px;
-    text-align: right;
-    display: block;
-    margin-left: 96%;
-}
-.homePrograms h3 {
-    background: #928000;
-    color: #fff;
-    font-size: 28px;
-    width: 100%;
-    text-transform: uppercase;
-    padding: 10px;
-    margin-bottom: 0px;
-    font-family: "Raleway-Bold";
-}
-.home-trips {
-    min-height: 323px;
-}
-.home-expeditions {
-    min-height: 323px;
-}
-.home-weekly {
-    background: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 323px;
-}}
-
-   @media only screen and (min-width: 768px) and (max-width: 1080px) {
-   	.portfolioContainer { margin:0px auto;}
-   	#work_outer{ background-size:450px; padding:40px 0px; background-position:right 230px; }
-   	.top_cont_inner{ background-size:400px;}
-   	.nav ul li{
-   		display:inline-block;
-   		margin:0 5px;
+   		width: 1440px;
+   		text-align: right;
+   		display: block;
+   		margin-left: 96%;
    	}
-
-   	.btn-lets {
-    border: 1px solid #fff;
-    padding: 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 200;
-    font-family: 'Raleway', sans-serif;
-    width: 140px;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    margin-right: 11px;
-    margin-left: 30% !important;
-}
-.content-menu {
-    width: 1440px;
-    text-align: right;
-    display: block;
-    margin-left: 96%;
-}
-
-   	.programsHomeTitleNumber {
-    font-size: 60px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Raleway-Regular', sans-serif;
-    text-align: left !important;
-    width: 8%;
-    float: left;
-    margin-top: -8px;
-}
-.programsTextWhite {
-    font-size: 14px;
-    color: #fff;
-    line-height: 27px;
-    margin-bottom: 20px;
-}
-   	.home-trips {
-   		min-height: 325px;
-   	}
-   	.home-expeditions {
-   		min-height: 325px;
-   	}
-   	.home-weekly{
-   		min-height: 325px;
-   	}
-   	.height360 {
-    height: 455px !important;
-}
-
-#ProgramsFish .botonera {
-    background: rgba(0,0,0,0.4);
-    padding: 10px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-}
-   	.arrow-active-down {
-   		width: 0;
-   		height: 0;
-   		border-top: 18px solid #928000;
-   		border-left: 15px solid transparent;
-   		border-right: 15px solid transparent;
-   		margin-left: 45%;
-   		padding-top: -11px;
-   		top: 44px;
-   		position: absolute;
-   		z-index: 999;
-   	}
-   	.FishingList2 {
-   		width: 87%;
-   		margin: 5% auto;
-   	}
-   	.mtop9 {
-   		margin-top: 0%;
-   		max-width: 100%;
-   	}
-.CV .btnClose{
-	padding-top: 0px;
-}
-.CV .btnClose2{
-	padding-top: 0px !important;
-}
-   	.CV {
-       height: 145%;
-    background: #23190f;
-    color: #fff;
-    font-family: "Raleway-Regular";
-    font-size: 16px;
-    line-height: 24px;
-    padding: 30px;
-    position: absolute;
-    z-index: 9999;
-
-}
-
-
    	.homePrograms h3 {
    		background: #928000;
    		color: #fff;
-   		font-size: 22px;
+   		font-size: 28px;
    		width: 100%;
    		text-transform: uppercase;
    		padding: 10px;
    		margin-bottom: 0px;
    		font-family: "Raleway-Bold";
    	}
-   	
+   	.home-trips {
+   		min-height: 323px;
+   	}
+   	.home-expeditions {
+   		min-height: 323px;
+   	}
+   	.home-weekly {
+   		background: url();
+   		background-repeat: no-repeat;
+   		background-size: cover;
+   		min-height: 323px;
+   	}
+   	.programsHomeTitle {
+   		font-size: 24px;
+   		line-height: 30.24px;
+   	}
+   }
 
-   	.top_cont_latest{ background-size:500px;}
-   	.tsimaneDiv {
-    padding: 60px;
-}
-.tsimaneDiv p, .tsimaneTitleBrawn {
-    margin-left: 12%;
-    margin-right: 15%;
-    width: 77%;
-}
-.waterGolden {
-    position: absolute;
-    margin-top: -100px;
-    margin-left: -92px;
-}
-.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
-   	#client_outer{ padding:25px 0px;}
-   	.client_profile.flt{ float:none;}
-   	.c-logo-part ul li{  margin:0 6px;}
-   	.c-logo-part ul a{ width:100px;}
-   	.client_profile{ float:none; margin:0 0 20px 0;}
-   	.client_area{ width:436px;}
-   	.quote_section{ width:auto; float:none;}
+   	@media only screen and (min-width: 768px) and (max-width: 1080px) {
+   		.portfolioContainer { margin:0px auto;}
+   		#work_outer{ background-size:450px; padding:40px 0px; background-position:right 230px; }
+   		.top_cont_inner{ background-size:400px;}
+   		.nav ul li{
+   			display:inline-block;
+   			margin:0 5px;
+   		}
 
-   	.service_block{ margin:0 0 20px 0;}
-   	#service{ padding:20px 0px;}
-   	.work_section{ padding:25px 0px;} 
-   	#work_outer{background:none; padding:25px 0px; }
-   	.top_cont_inner{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+   		.btn-lets {
+   			border: 1px solid #fff;
+   			padding: 10px;
+   			color: #fff;
+   			font-size: 18px;
+   			font-weight: 200;
+   			font-family: 'Raleway', sans-serif;
+   			width: 140px;
+   			text-align: center;
+   			margin: auto;
+   			margin-top: 50px;
+   			margin-right: 11px;
+   			margin-left: 30% !important;
+   		}
+   		.content-menu {
+   			width: 1440px;
+   			text-align: right;
+   			display: block;
+   			margin-left: 96%;
+   		}
 
-   	.top_cont_latest{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
-   	.top_left_cont { padding: 10% 0;}
-   	.top_left_cont h2{ font-size:29px;}
-   	body{ font-size:12px;}
-   	h2{ font-size:26px !important;}
-   	h3{ font-size:14px;}
-   	h6{ font-size:16px; margin-bottom:40px;}
-   	p{ line-height:18px;}
-   	.service-list{ font-size:12px; margin-bottom:20px;}
-   	.we-create li{ font-size:13px; padding:0 0 0 8px}
-   	.header h1{ font-size:28px;}
-   	.header{ padding:60px 0;}
-   	.main-section{ padding:60px 0 70px;}
-   	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
-   	.main-nav li{ display:block;}
-   	.main-nav li.small-logo{ display:none;}
-   	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
-   	.main-nav li a:hover{color:#7cc576}
-   	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
-   	.team-leader-box:nth-of-type(3n){ margin:0 auto}
-   	.res-nav_click{ display:block;}
-   	.featured-work{ font-size:12px; margin-top:30px;}
-   	.featured-box{ font-size:12px;}
-   	.featured-box p{ line-height:18px; }
-   	.c-logo-part ul a{ margin-bottom:5px;}
-   	.main-section.team{ padding:60px 0 50px;}
-   	.business-talking h2{ font-size:36px;}
-   	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
-   	.contact-info-box span{ line-height:18px;}
-   	.social-link{ margin-left:30px;} 
-   	.form{ margin:0 30px;}
-   	.copyright{ font-size:12px;}
-   	.business-talking a{ padding:10px 25px; font-size:14px;}
-   	.main-section.contact{ padding:60px 0 70px}
-   	.client-part-haead{ font-size:20px; line-height:30px;}
-   	.link{ font-size:14px; padding:10px 25px;}
+   		.programsHomeTitleNumber {
+   			font-size: 60px;
+   			color: #fff;
+   			text-transform: uppercase;
+   			font-family: 'Raleway-Regular', sans-serif;
+   			text-align: left !important;
+   			width: 8%;
+   			float: left;
+   			margin-top: -8px;
+   		}
+   		.programsTextWhite {
+   			font-size: 14px;
+   			color: #fff;
+   			line-height: 27px;
+   			margin-bottom: 20px;
+   		}
+   		.home-trips {
+   			min-height: 325px;
+   		}
+   		.home-expeditions {
+   			min-height: 325px;
+   		}
+   		.home-weekly{
+   			min-height: 325px;
+   		}
+   		.height360 {
+   			height: 455px !important;
+   		}
 
-   	.main-section.contact{ background-size:contain;}
-   	.Portfolio-nav li a{ padding:5px 16px;}
-   	.Portfolio-nav li{ display:block;}
+   		#ProgramsFish .botonera {
+   			background: rgba(0,0,0,0.4);
+   			padding: 10px;
+   			margin: auto;
+   			width: 100%;
+   			text-align: center;
+   		}
+   		.arrow-active-down {
+   			width: 0;
+   			height: 0;
+   			border-top: 18px solid #928000;
+   			border-left: 15px solid transparent;
+   			border-right: 15px solid transparent;
+   			margin-left: 45%;
+   			padding-top: -11px;
+   			top: 44px;
+   			position: absolute;
+   			z-index: 999;
+   		}
+   		.FishingList2 {
+   			width: 87%;
+   			margin: 5% auto;
+   		}
+   		.mtop9 {
+   			margin-top: 0%;
+   			max-width: 100%;
+   		}
+   		.CV .btnClose{
+   			padding-top: 0px;
+   		}
+   		.CV .btnClose2{
+   			padding-top: 0px !important;
+   		}
+   		.CV {
+   			height: 145%;
+   			background: #23190f;
+   			color: #fff;
+   			font-family: "Raleway-Regular";
+   			font-size: 16px;
+   			line-height: 24px;
+   			padding: 30px;
+   			position: absolute;
+   			z-index: 9999;
+
+   		}
+
+
+   		.homePrograms h3 {
+   			background: #928000;
+   			color: #fff;
+   			font-size: 22px;
+   			width: 100%;
+   			text-transform: uppercase;
+   			padding: 10px;
+   			margin-bottom: 0px;
+   			font-family: "Raleway-Bold";
+   		}
+
+
+   		.top_cont_latest{ background-size:500px;}
+   		.tsimaneDiv {
+   			padding: 60px;
+   		}
+   		.tsimaneDiv p, .tsimaneTitleBrawn {
+   			margin-left: 12%;
+   			margin-right: 15%;
+   			width: 77%;
+   		}
+   		.waterGolden {
+   			position: absolute;
+   			margin-top: -100px;
+   			margin-left: -92px;
+   		}
+   		.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
+   		#client_outer{ padding:25px 0px;}
+   		.client_profile.flt{ float:none;}
+   		.c-logo-part ul li{  margin:0 6px;}
+   		.c-logo-part ul a{ width:100px;}
+   		.client_profile{ float:none; margin:0 0 20px 0;}
+   		.client_area{ width:436px;}
+   		.quote_section{ width:auto; float:none;}
+
+   		.service_block{ margin:0 0 20px 0;}
+   		#service{ padding:20px 0px;}
+   		.work_section{ padding:25px 0px;} 
+   		#work_outer{background:none; padding:25px 0px; }
+   		.top_cont_inner{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+
+   		.top_cont_latest{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+   		.top_left_cont { padding: 10% 0;}
+   		.top_left_cont h2{ font-size:29px;}
+   		body{ font-size:12px;}
+   		h2{ font-size:26px !important;}
+   		h3{ font-size:14px;}
+   		h6{ font-size:16px; margin-bottom:40px;}
+   		p{ line-height:18px;}
+   		.service-list{ font-size:12px; margin-bottom:20px;}
+   		.we-create li{ font-size:13px; padding:0 0 0 8px}
+   		.header h1{ font-size:28px;}
+   		.header{ padding:60px 0;}
+   		.main-section{ padding:60px 0 70px;}
+   		.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+   		.main-nav li{ display:block;}
+   		.main-nav li.small-logo{ display:none;}
+   		.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+   		.main-nav li a:hover{color:#7cc576}
+   		.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+   		.team-leader-box:nth-of-type(3n){ margin:0 auto}
+   		.res-nav_click{ display:block;}
+   		.featured-work{ font-size:12px; margin-top:30px;}
+   		.featured-box{ font-size:12px;}
+   		.featured-box p{ line-height:18px; }
+   		.c-logo-part ul a{ margin-bottom:5px;}
+   		.main-section.team{ padding:60px 0 50px;}
+   		.business-talking h2{ font-size:36px;}
+   		.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
+   		.contact-info-box span{ line-height:18px;}
+   		.social-link{ margin-left:30px;} 
+   		.form{ margin:0 30px;}
+   		.copyright{ font-size:12px;}
+   		.business-talking a{ padding:10px 25px; font-size:14px;}
+   		.main-section.contact{ padding:60px 0 70px}
+   		.client-part-haead{ font-size:20px; line-height:30px;}
+   		.link{ font-size:14px; padding:10px 25px;}
+
+   		.main-section.contact{ background-size:contain;}
+   		.Portfolio-nav li a{ padding:5px 16px;}
+   		.Portfolio-nav li{ display:block;}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -694,10 +699,10 @@
 
 			}
 			ul.tabsTsimane li.current {
-    background: #928000;
-    color: #fff;
-    height: 115px;
-}
+				background: #928000;
+				color: #fff;
+				height: 115px;
+			}
 			ul.tabsTsimane li {
 				background: none;
 				color: #808000;
@@ -731,371 +736,371 @@
 				padding: 20px;
 			}
 			.height80{
-  height: 280px
-}
-.waterGolden{
-      position: absolute;
-    margin-top: -191px;
-    margin-left: 0px;
+				height: 280px
+			}
+			.waterGolden{
+				position: absolute;
+				margin-top: -191px;
+				margin-left: 0px;
 
-}
+			}
 
-    .waterGolden2 {
-    position: absolute;
-    margin-top: -80px;
-    float: right;
-    margin-left: 0%;
+			.waterGolden2 {
+				position: absolute;
+				margin-top: -80px;
+				float: right;
+				margin-left: 0%;
 
-}
+			}
 
-.boxPerson img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-    width: 100%;
-}
-.boxPerson .caption {
-    background: #818000;
-    position: absolute;
-    color: #fff;
-    z-index: 100;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    height: 484px;
-    text-align: left;
-    padding: 15px;
-}
-.tsimaneMan {
-    margin-bottom: 80px;
-    width: 100%;
-    text-align: center;
-    padding: 7px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Raleway-Regular";
-    font-size: 16px;
-    padding: 25px;
-    position: absolute;
-    top: 329px;
-    background: #818000;
-}
-.mleft10{
-	margin-left: 0px;
-}
-.tsimane1-3{
-	margin-left: 0%;
-}
-.tsimane1-2{
-	margin-left: 0%;
-}
-.tsimane1-1{
-	margin-left: 0%;
-}
-.btn-lets {
-    border: 1px solid #fff;
-    padding: 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 200;
-    font-family: 'Raleway', sans-serif;
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-right: 10px;
-    display: block;
-}
+			.boxPerson img {
+				position: absolute;
+				left: 0;
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				-ms-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;
+				width: 100%;
+			}
+			.boxPerson .caption {
+				background: #818000;
+				position: absolute;
+				color: #fff;
+				z-index: 100;
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				-ms-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;
+				left: 0;
+				opacity: 0;
+				width: 100%;
+				height: 484px;
+				text-align: left;
+				padding: 15px;
+			}
+			.tsimaneMan {
+				margin-bottom: 80px;
+				width: 100%;
+				text-align: center;
+				padding: 7px;
+				color: #fff;
+				text-transform: uppercase;
+				font-family: "Raleway-Regular";
+				font-size: 16px;
+				padding: 25px;
+				position: absolute;
+				top: 329px;
+				background: #818000;
+			}
+			.mleft10{
+				margin-left: 0px;
+			}
+			.tsimane1-3{
+				margin-left: 0%;
+			}
+			.tsimane1-2{
+				margin-left: 0%;
+			}
+			.tsimane1-1{
+				margin-left: 0%;
+			}
+			.btn-lets {
+				border: 1px solid #fff;
+				padding: 10px;
+				color: #fff;
+				font-size: 18px;
+				font-weight: 200;
+				font-family: 'Raleway', sans-serif;
+				width: 100%;
+				text-align: center;
+				margin: auto;
+				margin-top: 10px;
+				margin-right: 10px;
+				display: block;
+			}
 			#cloud-animation {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 0;
 
-}
-#cloud-animation img {
+			}
+			#cloud-animation img {
 
-  left: -100%;
-  top: -10%;
-  position: absolute;
-}
+				left: -100%;
+				top: -10%;
+				position: absolute;
+			}
 
-@-webkit-keyframes animCloud {
-  from {
-    -webkit-transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-  }
-}
-@-moz-keyframes animCloud {
-  from {
-    -moz-transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-  }
-}
-@keyframes animCloud {
-  from {
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
-#cloud1 {
-  -webkit-animation: animCloud 25s infinite linear;
-  -moz-animation: animCloud 25s infinite linear;
-  animation: animCloud 25s infinite linear;
-}
+			@-webkit-keyframes animCloud {
+				from {
+					-webkit-transform: translateX(100%);
+				}
+				to {
+					-webkit-transform: translateX(-100%);
+				}
+			}
+			@-moz-keyframes animCloud {
+				from {
+					-moz-transform: translateX(100%);
+				}
+				to {
+					-moz-transform: translateX(-100%);
+				}
+			}
+			@keyframes animCloud {
+				from {
+					-webkit-transform: translateX(100%);
+					-moz-transform: translateX(100%);
+					-ms-transform: translateX(100%);
+					-o-transform: translateX(100%);
+					transform: translateX(100%);
+				}
+				to {
+					-webkit-transform: translateX(-100%);
+					-moz-transform: translateX(-100%);
+					-ms-transform: translateX(-100%);
+					-o-transform: translateX(-100%);
+					transform: translateX(-100%);
+				}
+			}
+			#cloud1 {
+				-webkit-animation: animCloud 25s infinite linear;
+				-moz-animation: animCloud 25s infinite linear;
+				animation: animCloud 25s infinite linear;
+			}
 
-#cloud2 {
-  -webkit-animation: animCloud 35s infinite linear;
-  -moz-animation: animCloud 35s infinite linear;
-  animation: animCloud 35s infinite linear;
-}
-.tsimaneDiv p, .tsimaneTitleBrawn {
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 90%;
-}.divButton{
-  margin-left: 25%; width: 50%; margin-top: 15px
-}
-#ProgramsFish .botonera {
-    background: rgba(0,0,0,0.4);
-    padding: 10px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-}
+			#cloud2 {
+				-webkit-animation: animCloud 35s infinite linear;
+				-moz-animation: animCloud 35s infinite linear;
+				animation: animCloud 35s infinite linear;
+			}
+			.tsimaneDiv p, .tsimaneTitleBrawn {
+				margin-left: 3%;
+				margin-right: 3%;
+				width: 90%;
+				}.divButton{
+					margin-left: 25%; width: 50%; margin-top: 15px
+				}
+				#ProgramsFish .botonera {
+					background: rgba(0,0,0,0.4);
+					padding: 10px;
+					margin: auto;
+					width: 100%;
+					text-align: center;
+				}
 
-   }
-   
-   @media only screen and (min-width: 768px) and (max-width: 991px) {
-   	/****Ipad Portrait 768 Container 750 ****/
-   	.body{width: 100%;}
-   	body{ font-size:13px;}
-   	p{ line-height:20px ;}
-   	.header h1{ font-size:46px;}
-   	.main-nav ul li a{ padding:14px;}
-   	.small-logo{ padding:0 20px;}
-   	h2{ font-size:30px}
-   	h6{ font-size:16px;}
-   	h3{ font-size:15px;}
-   	.service-list{ margin-bottom:20px; font-size:15px;}
-   	.featured-work p.padding-b{ padding-bottom:15px;}
-   	.main-section{ padding:70px 0;}
-   	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
-   	.c-logo-part ul li a{ display:block;}
-   	.c-logo-part ul li a img{ display:block;}
-   	.form{ margin:0;}
-   	.contact-info-box{ margin:0 ;}
-   	.social-link{ margin:0;}
+			}
 
-   	.main-nav{ display:block !important; }
-   	.main-nav li a{ padding:8px 15px;}
-   	.top_cont_inner{ background-size:327px;}
+			@media only screen and (min-width: 768px) and (max-width: 991px) {
+				/****Ipad Portrait 768 Container 750 ****/
+				.body{width: 100%;}
+				body{ font-size:13px;}
+				p{ line-height:20px ;}
+				.header h1{ font-size:46px;}
+				.main-nav ul li a{ padding:14px;}
+				.small-logo{ padding:0 20px;}
+				h2{ font-size:30px}
+				h6{ font-size:16px;}
+				h3{ font-size:15px;}
+				.service-list{ margin-bottom:20px; font-size:15px;}
+				.featured-work p.padding-b{ padding-bottom:15px;}
+				.main-section{ padding:70px 0;}
+				.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
+				.c-logo-part ul li a{ display:block;}
+				.c-logo-part ul li a img{ display:block;}
+				.form{ margin:0;}
+				.contact-info-box{ margin:0 ;}
+				.social-link{ margin:0;}
 
-   	.top_cont_latest{ background-size:327px;}
-   	.top_left_cont { padding:30px 0;}
-   	.top_left_cont h2{ font-size:24px;}
-   	.service_block{ margin:0 0 35px 0;}
-   	#service{ padding:40px 0px;}
-   	.service_area{ padding:40px 0px;}
-   	#work_outer{ background-size:350px; padding:40px 0px; background-position:right 130px; }
-   	.work_section{ padding:40px 0px;}
-   	#client_outer{ padding:45px 0px;}
-   	.quote_section{ width:495px; margin: 6px 0 0 30px;}
-   	.client_area{ width:700px;}
-   	.client_profile_pic{ width:150px; height:150px;}
-   	.quote_section.flt{ margin:6px 0 0 0;}
+				.main-nav{ display:block !important; }
+				.main-nav li a{ padding:8px 15px;}
+				.top_cont_inner{ background-size:327px;}
 
-
+				.top_cont_latest{ background-size:327px;}
+				.top_left_cont { padding:30px 0;}
+				.top_left_cont h2{ font-size:24px;}
+				.service_block{ margin:0 0 35px 0;}
+				#service{ padding:40px 0px;}
+				.service_area{ padding:40px 0px;}
+				#work_outer{ background-size:350px; padding:40px 0px; background-position:right 130px; }
+				.work_section{ padding:40px 0px;}
+				#client_outer{ padding:45px 0px;}
+				.quote_section{ width:495px; margin: 6px 0 0 30px;}
+				.client_area{ width:700px;}
+				.client_profile_pic{ width:150px; height:150px;}
+				.quote_section.flt{ margin:6px 0 0 0;}
 
 
 
 
-   }
 
-   @media (max-width: 767px) {
-   	/****Mobile Landscape 480 Container 100% ****/
 
-   	#ProgramsFish .botonera {
-    background: rgba(0,0,0,0.4);
-    padding: 10px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-}
-.native2 {
-    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420752/Tsimane/programs/high-secure.jpg);
-    background-size: 100%;
-    height: 100%; 
-    background-repeat: no-repeat;
-}
-#ProgramsFishing .botonera button {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ccc;
-    background: transparent;
-    padding-right: 30px;
-    padding-left: 30px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.ProgramsTabsDays {
-    width: 100%;}
-    ul.tabsPrograms li {
-    background: none;
-    color: #888a8d;
-    /* display: inline-block; */
-    padding: 10px 15px;
-    cursor: pointer;
-    width: 20%;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-family: 'Raleway-semibold', sans-serif;
-    text-align: left;
-    border-bottom: 0px solid #ccc;
-    height: 55px;
-    text-align: center;
-    background: #fff;
-    margin: 0px;
-    border: 0px;
-    float: left;
-}
-.FishingList-col2 {
-    overflow: hidden;
-    font-size: 16px;
-    font-size: 16px;
-    line-height: 21px;
-    letter-spacing: 0.36px;
-    color: #FFFFFF;
-    color: rgb(255, 255, 255);
-    font-family: 'Raleway-Light' !important;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-    margin-right: 20px;
-}
-.BRigth {
-    border-right: 0px solid #ccc;
-    margin-bottom: 30px;
-}
-#REVIEWS {
-    margin-bottom: 60px;
-    margin-left: 20px;
-}
-#ProgramsFish .botonera button {
-    border: 1px solid #fff;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    background: transparent;
-    padding-right: 30px;
-    padding-left: 30px;
-    width: 147px;
-    margin-bottom: 10px;}
-    #ProgramsFish {
-    background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1503417938/Tsimane/programs/book-now-1-weekly-program.jpg);
-    margin: 0px;
-    padding: 0px;
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
-}
-.CV {
-       height: 145%;
-    background: #23190f;
-    color: #fff;
-    font-family: "Raleway-Regular";
-    font-size: 16px;
-    line-height: 24px;
-    padding: 30px;
-    position: absolute;
-    z-index: 9999;
-}
-.CV .btnClose{
-	padding-top: 0px;
-}
-   	.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
-   	#client_outer{ padding:25px 0px;}
-   	.client_profile.flt{ float:none;}
-   	.c-logo-part ul li{  margin:0 6px;}
-   	.c-logo-part ul a{ width:100px;}
-   	.client_profile{ float:none; margin:0 0 20px 0;}
-   	.client_area{ width:436px;}
-   	.quote_section{ width:auto; float:none;}
+			}
 
-   	.service_block{ margin:0 0 20px 0;}
-   	#service{ padding:20px 0px;}
-   	.work_section{ padding:25px 0px;} 
-   	#work_outer{background:none; padding:25px 0px; }
-   	.top_cont_inner{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+			@media (max-width: 767px) {
+				/****Mobile Landscape 480 Container 100% ****/
 
-   	.top_cont_latest{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
-   	.top_left_cont { padding: 10% 0;}
-   	.top_left_cont h2{ font-size:29px;}
-   	body{ font-size:12px;}
-   	h2{ font-size:26px !important;}
-   	h3{ font-size:14px;}
-   	h6{ font-size:16px; margin-bottom:40px;}
-   	p{ line-height:18px;}
-   	.service-list{ font-size:12px; margin-bottom:20px;}
-   	.we-create li{ font-size:13px; padding:0 0 0 8px}
-   	.header h1{ font-size:28px;}
-   	.header{ padding:60px 0;}
-   	.main-section{ padding:60px 0 70px;}
-   	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
-   	.main-nav li{ display:block;}
-   	.main-nav li.small-logo{ display:none;}
-   	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
-   	.main-nav li a:hover{color:#7cc576}
-   	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
-   	.team-leader-box:nth-of-type(3n){ margin:0 auto}
-   	.res-nav_click{ display:block;}
-   	.featured-work{ font-size:12px; margin-top:30px;}
-   	.featured-box{ font-size:12px;}
-   	.featured-box p{ line-height:18px; }
-   	.c-logo-part ul a{ margin-bottom:5px;}
-   	.main-section.team{ padding:60px 0 50px;}
-   	.business-talking h2{ font-size:36px;}
-   	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
-   	.contact-info-box span{ line-height:18px;}
-   	.social-link{ margin-left:30px;} 
-   	.form{ margin:0 30px;}
-   	.copyright{ font-size:12px;}
-   	.business-talking a{ padding:10px 25px; font-size:14px;}
-   	.main-section.contact{ padding:60px 0 70px}
-   	.client-part-haead{ font-size:20px; line-height:30px;}
-   	.link{ font-size:14px; padding:10px 25px;}
+				#ProgramsFish .botonera {
+					background: rgba(0,0,0,0.4);
+					padding: 10px;
+					margin: auto;
+					width: 100%;
+					text-align: center;
+				}
+				.native2 {
+					background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503420752/Tsimane/programs/high-secure.jpg);
+					background-size: 100%;
+					height: 100%; 
+					background-repeat: no-repeat;
+				}
+				#ProgramsFishing .botonera button {
+					border: 1px solid #ccc;
+					padding: 10px;
+					text-align: center;
+					text-transform: uppercase;
+					color: #ccc;
+					background: transparent;
+					padding-right: 30px;
+					padding-left: 30px;
+					width: 100%;
+					margin-bottom: 15px;
+				}
+				.ProgramsTabsDays {
+					width: 100%;}
+					ul.tabsPrograms li {
+						background: none;
+						color: #888a8d;
+						/* display: inline-block; */
+						padding: 10px 15px;
+						cursor: pointer;
+						width: 20%;
+						font-size: 15px;
+						text-transform: uppercase;
+						font-family: 'Raleway-semibold', sans-serif;
+						text-align: left;
+						border-bottom: 0px solid #ccc;
+						height: 55px;
+						text-align: center;
+						background: #fff;
+						margin: 0px;
+						border: 0px;
+						float: left;
+					}
+					.FishingList-col2 {
+						overflow: hidden;
+						font-size: 16px;
+						font-size: 16px;
+						line-height: 21px;
+						letter-spacing: 0.36px;
+						color: #FFFFFF;
+						color: rgb(255, 255, 255);
+						font-family: 'Raleway-Light' !important;
+						border-bottom: 1px solid #ccc;
+						margin-bottom: 10px;
+						padding-bottom: 20px;
+						margin-right: 20px;
+					}
+					.BRigth {
+						border-right: 0px solid #ccc;
+						margin-bottom: 30px;
+					}
+					#REVIEWS {
+						margin-bottom: 60px;
+						margin-left: 20px;
+					}
+					#ProgramsFish .botonera button {
+						border: 1px solid #fff;
+						padding: 10px;
+						text-align: center;
+						text-transform: uppercase;
+						color: #fff;
+						background: transparent;
+						padding-right: 30px;
+						padding-left: 30px;
+						width: 147px;
+						margin-bottom: 10px;}
+						#ProgramsFish {
+							background: url(http://res.cloudinary.com/dv26e3u8y/image/upload/v1503417938/Tsimane/programs/book-now-1-weekly-program.jpg);
+							margin: 0px;
+							padding: 0px;
+							height: 450px;
+							background-repeat: no-repeat;
+							background-size: cover;
+							padding: 40px;
+						}
+						.CV {
+							height: 145%;
+							background: #23190f;
+							color: #fff;
+							font-family: "Raleway-Regular";
+							font-size: 16px;
+							line-height: 24px;
+							padding: 30px;
+							position: absolute;
+							z-index: 9999;
+						}
+						.CV .btnClose{
+							padding-top: 0px;
+						}
+						.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
+						#client_outer{ padding:25px 0px;}
+						.client_profile.flt{ float:none;}
+						.c-logo-part ul li{  margin:0 6px;}
+						.c-logo-part ul a{ width:100px;}
+						.client_profile{ float:none; margin:0 0 20px 0;}
+						.client_area{ width:436px;}
+						.quote_section{ width:auto; float:none;}
 
-   	.main-section.contact{ background-size:contain;}
-   	.Portfolio-nav li a{ padding:5px 16px;}
-   	.Portfolio-nav li{ display:block;}
+						.service_block{ margin:0 0 20px 0;}
+						#service{ padding:20px 0px;}
+						.work_section{ padding:25px 0px;} 
+						#work_outer{background:none; padding:25px 0px; }
+						.top_cont_inner{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+
+						.top_cont_latest{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
+						.top_left_cont { padding: 10% 0;}
+						.top_left_cont h2{ font-size:29px;}
+						body{ font-size:12px;}
+						h2{ font-size:26px !important;}
+						h3{ font-size:14px;}
+						h6{ font-size:16px; margin-bottom:40px;}
+						p{ line-height:18px;}
+						.service-list{ font-size:12px; margin-bottom:20px;}
+						.we-create li{ font-size:13px; padding:0 0 0 8px}
+						.header h1{ font-size:28px;}
+						.header{ padding:60px 0;}
+						.main-section{ padding:60px 0 70px;}
+						.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+						.main-nav li{ display:block;}
+						.main-nav li.small-logo{ display:none;}
+						.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+						.main-nav li a:hover{color:#7cc576}
+						.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+						.team-leader-box:nth-of-type(3n){ margin:0 auto}
+						.res-nav_click{ display:block;}
+						.featured-work{ font-size:12px; margin-top:30px;}
+						.featured-box{ font-size:12px;}
+						.featured-box p{ line-height:18px; }
+						.c-logo-part ul a{ margin-bottom:5px;}
+						.main-section.team{ padding:60px 0 50px;}
+						.business-talking h2{ font-size:36px;}
+						.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
+						.contact-info-box span{ line-height:18px;}
+						.social-link{ margin-left:30px;} 
+						.form{ margin:0 30px;}
+						.copyright{ font-size:12px;}
+						.business-talking a{ padding:10px 25px; font-size:14px;}
+						.main-section.contact{ padding:60px 0 70px}
+						.client-part-haead{ font-size:20px; line-height:30px;}
+						.link{ font-size:14px; padding:10px 25px;}
+
+						.main-section.contact{ background-size:contain;}
+						.Portfolio-nav li a{ padding:5px 16px;}
+						.Portfolio-nav li{ display:block;}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -1529,21 +1534,21 @@
 				display: block;
 			}
 			#TripInfo h2 {
-    margin-left: 20px;
-}
-.programsTextWhite{
-	line-height: 27px;
-	margin-bottom: 20px;
-}
-#ProgramsFishing h2{
-	margin-left: 20px;
-}
-.lodgeAgua {
-    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417947/Tsimane/programs/accomodations-weekly-program.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-}
+				margin-left: 20px;
+			}
+			.programsTextWhite{
+				line-height: 27px;
+				margin-bottom: 20px;
+			}
+			#ProgramsFishing h2{
+				margin-left: 20px;
+			}
+			.lodgeAgua {
+				background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1503417947/Tsimane/programs/accomodations-weekly-program.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				min-height: 360px;
+			}
 			.textTab{
 				font-size: 13px !important;
 				color: #fff !important;
@@ -1591,10 +1596,10 @@
 
 			}
 			ul.tabsTsimane li.current {
-    background: #928000;
-    color: #fff;
-    height: 115px;
-}
+				background: #928000;
+				color: #fff;
+				height: 115px;
+			}
 			ul.tabsTsimane li {
 				background: none;
 				color: #808000;
@@ -1628,175 +1633,187 @@
 				padding: 20px;
 			}
 			.height80{
-  height: 280px
-}
-.waterGolden{
-      position: absolute;
-    margin-top: -191px;
-    margin-left: 0px;
+				height: 280px
+			}
+			.waterGolden{
+				position: absolute;
+				margin-top: -191px;
+				margin-left: 0px;
 
-}
+			}
 
-    .waterGolden2 {
-    position: absolute;
-    margin-top: -80px;
-    float: right;
-    margin-left: 0%;
+			.waterGolden2 {
+				position: absolute;
+				margin-top: -80px;
+				float: right;
+				margin-left: 0%;
 
-}
+			}
 
-.boxPerson img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
+			.boxPerson img {
+				position: absolute;
+				left: 0;
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				-ms-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;
+				width: 100%;
+			}
+			.boxPerson .caption {
+				background: #818000;
+				position: absolute;
+				color: #fff;
+				z-index: 100;
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				-ms-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;
+				left: 0;
+				opacity: 0;
+				width: 100%;
+				height: 390px;
+				text-align: left;
+				padding: 15px;
+			}
+			.tsimaneMan {
+				margin-bottom: 80px;
+				width: 100%;
+				text-align: center;
+				padding: 7px;
+				color: #fff;
+				text-transform: uppercase;
+				font-family: "Raleway-Regular";
+				font-size: 16px;
+				padding: 25px;
+				position: absolute;
+				top: 298px;
+				background: #818000;
+			}
+			.mleft10{
+				margin-left: 0px;
+			}
+			.tsimane1-3{
+				margin-left: 0%;
+			}
+			.tsimane1-2{
+				margin-left: 0%;
+			}
+			.tsimane1-1{
+				margin-left: 0%;
+			}
+			.btn-lets {
+				border: 1px solid #fff;
+				padding: 10px;
+				color: #fff;
+				font-size: 18px;
+				font-weight: 200;
+				font-family: 'Raleway', sans-serif;
+				width: 100%;
+				text-align: center;
+				margin: auto;
+				margin-top: 10px;
+				margin-right: 10px;
+				display: block;
+			}
+			#cloud-animation {
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 0;
+
+			}
+			#cloud-animation img {
+
+				left: -100%;
+				top: -10%;
+				position: absolute;
+			}
+
+
+
+			.tsimaneDiv p, .tsimaneTitleBrawn {
+				margin-left: 3%;
+				margin-right: 3%;
+				width: 90%;
+			}
+			.divButton{
+				margin-left: 25%; width: 50%; margin-top: 15px
+			}
+
+			#Sun-animation {
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 0;
+				width: 100%;
+
+			}
+			#Sun-animation img {
+
+				left: 0;
+				top: -10%;
+				position: relative;
+
+			}
+			.weather{
+				background: #dfdfdf; color: #928000; font-size: 17px;  width: 100%;margin-bottom: 20px;
+				height: 100%;
+			}
+			ul.tabs li.current {
+				background: #938b14;
+				color: #fff;
+				height: 100%;
+				font-size: 15px;
+			}
+			.botonera {
     width: 100%;
-}
-.boxPerson .caption {
-    background: #818000;
-    position: absolute;
-    color: #fff;
-    z-index: 100;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    height: 390px;
-    text-align: left;
-    padding: 15px;
-}
-.tsimaneMan {
-    margin-bottom: 80px;
-    width: 100%;
-    text-align: center;
-    padding: 7px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Raleway-Regular";
-    font-size: 16px;
-    padding: 25px;
-    position: absolute;
-    top: 298px;
-    background: #818000;
-}
-.mleft10{
-	margin-left: 0px;
-}
-.tsimane1-3{
-	margin-left: 0%;
-}
-.tsimane1-2{
-	margin-left: 0%;
-}
-.tsimane1-1{
-	margin-left: 0%;
-}
-.btn-lets {
-    border: 1px solid #fff;
-    padding: 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 200;
-    font-family: 'Raleway', sans-serif;
-    width: 100%;
-    text-align: center;
+    border: 1px solid #a9abac;
     margin: auto;
-    margin-top: 10px;
-    margin-right: 10px;
+    padding-bottom: 26px;
+    padding-top: 26px;
+}
+#ProgramsFishing .btnFishing {
+    /* padding: 10px; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ccc;
+    background: transparent;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 0px;
+    border-right: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 23px;
+    padding-top: 24px;
+    width: d;
     display: block;
 }
-			#cloud-animation {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-
-}
-#cloud-animation img {
-
-  left: -100%;
-  top: -10%;
-  position: absolute;
-}
-
-@-webkit-keyframes animCloud {
-  from {
-    -webkit-transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-  }
-}
-@-moz-keyframes animCloud {
-  from {
-    -moz-transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-  }
-}
-@keyframes animCloud {
-  from {
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
-#cloud1 {
-  -webkit-animation: animCloud 25s infinite linear;
-  -moz-animation: animCloud 25s infinite linear;
-  animation: animCloud 25s infinite linear;
-}
-
-#cloud2 {
-  -webkit-animation: animCloud 35s infinite linear;
-  -moz-animation: animCloud 35s infinite linear;
-  animation: animCloud 35s infinite linear;
-}
-.tsimaneDiv p, .tsimaneTitleBrawn {
+.arrow-tabs.current {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #818000;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
     margin-left: 3%;
-    margin-right: 3%;
-    width: 90%;
-}.divButton{
-  margin-left: 25%; width: 50%; margin-top: 15px
+    padding-top: 0px;
+    position: absolute;
+    /* left: 16%; */
+    z-index: 99000;
+    top: 60px;
 }
-
-#Sun-animation {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-  width: 100%;
-
-}
-#Sun-animation img {
-
-  left: 0;
-  top: -10%;
-  position: relative;
-
-}
-.weather{
-  background: #dfdfdf; color: #928000; font-size: 17px;  width: 100%;margin-bottom: 20px;
-  height: 100%;
+.ProgramsTabsDays {
+    width:100%;
+    margin: -6% auto;
+    top: 22px;
+    z-index: 9999;
+    position: relative;
+    background: #fff !important;
 }
 
 		}
