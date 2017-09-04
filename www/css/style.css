@@ -2626,7 +2626,7 @@ img {
   letter-spacing : 2.4px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
-  padding-top: 50px;
+  padding-top: 20px;
   font-family: "Raleway-ExtraBold";
 }
 /* no transition on .isotope container */
@@ -4848,25 +4848,20 @@ font-family: 'Raleway-Bold', sans-serif !important;}
 
 
 .item:nth-child(1) {
-    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1501509397/Tsimane/slide-1-home_g5yw0r.jpg);
     background-size: cover;
 }
 
 .item:nth-child(2) {
-   background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1501509089/Tsimane/slide-home-2_qhxfkn.jpg);
     background-size: cover;
 }
 
 .item:nth-child(3) {
-   background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1501509397/Tsimane/slide-1-home_g5yw0r.jpg);
-    background-size: cover;
+   background-size: cover;
 }
 .item:nth-child(4) {
-   background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1501509397/Tsimane/slide-1-home_g5yw0r.jpg);
     background-size: cover;
 }
 .item:nth-child(5) {
-    background: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1501509397/Tsimane/slide-1-home_g5yw0r.jpg);
     background-size: cover;
 }
 
@@ -5030,6 +5025,10 @@ font-family: 'Raleway-Bold', sans-serif !important;}
 .mbotton21{
   margin-bottom: 21px !important
 }
+
+
+
+
 @media  (min-width: 1440px) {
 	.body{
 		width: 1440px;
