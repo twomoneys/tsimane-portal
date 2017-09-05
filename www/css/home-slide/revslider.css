@@ -29,6 +29,7 @@ website:   	http://www.themepunch.com
 .tp-banner{
 	width:100%;
 	position:relative;
+	height: 770px !important;
 }
 
 .tp-banner-fullscreen-container {
