@@ -1141,7 +1141,6 @@ padding: 10px ;
 #Tsimane2 h4{
     font-family: 'Raleway-SemiBoldItalic';
   
-  font-style : italic;
   font-size : 34px;
   line-height : 36px;
   letter-spacing : 0.68px;
@@ -1318,7 +1317,7 @@ font-size : 20px;
   color : rgb(255, 255, 255);
 	text-transform: none;
 	 padding-left: 10%;
-	 font-family: 'Raleway-Regular';
+	 font-family: 'Raleway';
 	 text-align: left !important;
 
 
@@ -1366,7 +1365,7 @@ font-size : 20px;
   color : rgb(255, 255, 255);
   text-transform: none;
    padding-left: 10%;
-   font-family: 'Raleway-Regular';
+   font-family: 'Raleway';
    text-align: left !important;
 
 
@@ -1731,7 +1730,14 @@ border-right: 0px;
 border-left: 0px;
 height: 100px;
 z-index: 9999;
-width: 100%;π
+width: 100%;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    position:fixed;
+    z-index:1000;
+    width:100%
 	}
 
 .header_section{
@@ -4749,9 +4755,8 @@ font-size : 17px;
   color : rgb(255, 255, 255);
 }
 .tsimanetext2{
-   font-family: 'Raleway-SemiBoldItalic', sans-serif;
-font-weight : bold;
-  font-style : italic;
+   font-family: 'Raleway-SemiBoldItalic', sans-serif;;
+
   font-size : 16px;
   line-height : 20px;
   color : #FFFFFF;
@@ -4759,7 +4764,7 @@ font-weight : bold;
   }
 .tsimanetext3{
    font-family: 'Raleway-SemiBoldItalic', sans-serif;
-   font-style : italic;
+
   font-size : 19px;
   line-height : 27px;
   letter-spacing : 0.38px;
@@ -5026,125 +5031,56 @@ font-family: 'Raleway-Bold', sans-serif !important;}
   margin-bottom: 21px !important
 }
 
-.section {
-  height: 100vh;
-  display: flex;
-  position: relative;
-}
+/* Backgrounds will cover all the section
+  * --------------------------------------- */
+  #section0,
+  #section1,
+  #section2,
+  #section3{
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
-.white-bg {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.white-bg .title, .white-bg .title-2, .white-bg a {
-  display: block;
-  margin-bottom: 20px;
-}
-.white-bg .title {
-  color: #18a3d2;
-  font-size: 52px;
-  font-wieght: 700;
-  border-bottom: 0.2em solid #18a3d2;
-  position: relative;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.white-bg .title:after {
-  background-color: #95def6;
-  bottom: -0.2em;
-  content: "";
-  display: inline-block;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  height: 0.2em;
-  transition: width 0.4s;
-  width: 1px;
-}
-.white-bg .title:hover, .white-bg .title:focus, .white-bg .title:active {
-  color: #76d4f3;
-  cursor: pointer;
-}
-.white-bg .title:hover:after, .white-bg .title:focus:after, .white-bg .title:active:after {
-  opacity: 1;
-  width: 100%;
-}
-.white-bg .title-2 {
-  color: #8193f3;
-  font-size: 32px;
-  font-wieght: 700;
-  border-bottom: 0.2em solid #8193f3;
-  position: relative;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-.white-bg .title-2:after {
-  background-color: #c5ccf6;
-  bottom: -0.2em;
-  content: "";
-  display: inline-block;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  height: 0.2em;
-  transition: height 0.3s;
-  width: 1px;
-}
-.white-bg .title-2:hover, .white-bg .title-2:focus, .white-bg .title-2:active {
-  color: #a8b3f2;
-  cursor: pointer;
-}
-.white-bg .title-2:hover:after, .white-bg .title-2:focus:after, .white-bg .title-2:active:after {
-  opacity: 1;
-  width: 100%;
-  height: 0.3em;
-}
-.white-bg a {
-  color: grey;
-}
-.white-bg a:hover, .white-bg a:focus, .white-bg a:active {
-  text-decoration: none;
-}
-.white-bg h2 {
-  font-size: 18px;
-  font-wieght: 400;
-}
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615079/Tsimane/Home-slide-1.png);
 
-.blur-container {
-  background-size: cover !important;
-  background-position: center !important;
-  background-attachment: fixed !important;
-}
-.blur-container::before, .blur-container::after {
-  top: 0px;
-  left: 0px;
-  content: '';
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: absolute;
-}
+  }
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }
+  #section1{
+    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615080/Tsimane/Home-slide-2.png);
+  }
+  #section2{
+    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504618265/Tsimane/Home-slide-3.png);
+  
+  }
+  #section3{
+    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615101/Tsimane/Home-slide-4.png);
+    
+  }
+  #section3 h1{
+    color: #000;
+  }
+#section4{
+    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615074/Tsimane/Home-slide-5.png);
+    
+  }
+  #section4 h1{
+    color: #000;
+  }
 
-.snowflake-1 {
-  background: url("https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615079/Tsimane/Home-slide-1.png");
-}
+ 
+  /* Bottom menu
+  * --------------------------------------- */
+  #infoMenu li a {
+    color: #fff;
+  }
 
-.snowflake-2 {
-  background: url("https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615080/Tsimane/Home-slide-2.png");
-}
-
-.snowflake-3 {
-  background: url("https://res.cloudinary.com/dv26e3u8y/image/upload/v1504618265/Tsimane/Home-slide-3.png");
-}
-
-.snowflake-4 {
-  background: url("https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615101/Tsimane/Home-slide-4.png");
-}
-
-.snowflake-5 {
-  background: url("https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615074/Tsimane/Home-slide-5.png");
-}
 
 
 @media  (min-width: 1440px) {
