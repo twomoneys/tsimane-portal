@@ -36,11 +36,9 @@
     <![endif]-->
 
    
-    <script type="text/javascript" src="js/home/examples.js"></script>
+      <script type="text/javascript" src="js/home/parallax.js"></script>
     <!-- Rev Slider -->
 
-
-<link rel="stylesheet" type="text/css" href="css/home-slide/jquery.fullPage.css" />
 
   </head>
   <body class="body">
@@ -78,94 +76,23 @@
           <a class="res-nav_click animated wobble wow"  href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
         </div>
       </header>
-<div class="container">
-  <section class="background">
-    <div class="content-wrapper">
-      <p class="content-title">Full Page Parallax Effect</p>
-      <p class="content-subtitle">Scroll down and up to see the effect!</p>
-    </div>
-  </section>
-  <section class="background">
-    <div class="content-wrapper">
-      <p class="content-title">Cras lacinia non eros nec semper.</p>
-      <p class="content-subtitle">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut massa mattis nibh semper pretium.</p>
-    </div>
-  </section>
-  <section class="background">
-    <div class="content-wrapper">
-      <p class="content-title">Etiam consequat lectus.</p>
-      <p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh aliquam dapibus.</p>
-    </div>
-  </section>
-</div>
 
-<script type="text/javascript">
-  // ------------- VARIABLES ------------- //
-var ticking = false;
-var isFirefox = (/Firefox/i.test(navigator.userAgent));
-var isIe = (/MSIE/i.test(navigator.userAgent)) || (/Trident.*rv\:11\./i.test(navigator.userAgent));
-var scrollSensitivitySetting = 30; //Increase/decrease this number to change sensitivity to trackpad gestures (up = less sensitive; down = more sensitive) 
-var slideDurationSetting = 600; //Amount of time for which slide is "locked"
-var currentSlideNumber = 0;
-var totalSlideNumber = $(".background").length;
+<section class="blur-container snowflake-1 section">  
+</section>
 
-// ------------- DETERMINE DELTA/SCROLL DIRECTION ------------- //
-function parallaxScroll(evt) {
-  if (isFirefox) {
-    //Set delta for Firefox
-    delta = evt.detail * (-120);
-  } else if (isIe) {
-    //Set delta for IE
-    delta = -evt.deltaY;
-  } else {
-    //Set delta for all other browsers
-    delta = evt.wheelDelta;
-  }
+<section class="blur-container snowflake-2 section">  
+</section>
 
-  if (ticking != true) {
-    if (delta <= -scrollSensitivitySetting) {
-      //Down scroll
-      ticking = true;
-      if (currentSlideNumber !== totalSlideNumber - 1) {
-        currentSlideNumber++;
-        nextItem();
-      }
-      slideDurationTimeout(slideDurationSetting);
-    }
-    if (delta >= scrollSensitivitySetting) {
-      //Up scroll
-      ticking = true;
-      if (currentSlideNumber !== 0) {
-        currentSlideNumber--;
-      }
-      previousItem();
-      slideDurationTimeout(slideDurationSetting);
-    }
-  }
-}
+<section class="blur-container snowflake-3 section">  
+</section>
 
-// ------------- SET TIMEOUT TO TEMPORARILY "LOCK" SLIDES ------------- //
-function slideDurationTimeout(slideDuration) {
-  setTimeout(function() {
-    ticking = false;
-  }, slideDuration);
-}
+<section class="blur-container snowflake-4 section">  
+</section>
 
-// ------------- ADD EVENT LISTENER ------------- //
-var mousewheelEvent = isFirefox ? "DOMMouseScroll" : "wheel";
-window.addEventListener(mousewheelEvent, _.throttle(parallaxScroll, 60), false);
+<section class="blur-container snowflake-5 section">  
+</section>
 
-// ------------- SLIDE MOTION ------------- //
-function nextItem() {
-  var $previousSlide = $(".background").eq(currentSlideNumber - 1);
-  $previousSlide.removeClass("up-scroll").addClass("down-scroll");
-}
 
-function previousItem() {
-  var $currentSlide = $(".background").eq(currentSlideNumber);
-  $currentSlide.removeClass("down-scroll").addClass("up-scroll");
-}
-</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- BEGIN JIVOSITE CODE {literal} -->
   <script type='text/javascript'>
