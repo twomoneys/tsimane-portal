@@ -17,10 +17,10 @@
 
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
   <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
-<link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
- 
+
 
 <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
@@ -28,106 +28,38 @@
     <script src="js/html5element.js"></script>
     <![endif]-->
 
-   
-
-  <link rel="stylesheet" type="text/css" href="css/home-slide/jquery.fullPage.css" />
-  <link rel="stylesheet" type="text/css" href="css/home-slide/examples.css" />
-  <style>
-
-  /* Style for our header texts
-  * --------------------------------------- */
-  h1{
-    font-size: 5em;
-    font-family: arial,helvetica;
-    color: #fff;
-    margin:0;
-    padding:0;
-  }
-
-  /* Centered texts in each section
-  * --------------------------------------- */
-  .section{
-    text-align:center;
-  }
 
 
-  /* Backgrounds will cover all the section
-  * --------------------------------------- */
-  #section0,
-  #section1,
-  #section2,
-  #section3{
-    background-size: cover;
-    background-attachment: fixed;
-  }
+    <link rel="stylesheet" type="text/css" href="css/home-slide/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/home-slide/examples.css" />
 
-  /* Defining each sectino background and styles
-  * --------------------------------------- */
-  #section0{
-    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615079/Tsimane/Home-slide-1.png);
-
-  }
-  #section0 h1{
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-  }
-  #section1{
-    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615080/Tsimane/Home-slide-2.png);
-  }
-  #section2{
-    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504618265/Tsimane/Home-slide-3.png);
-  
-  }
-  #section3{
-    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615101/Tsimane/Home-slide-4.png);
-    
-  }
-  #section3 h1{
-    color: #000;
-  }
-#section4{
-    background-image: url(https://res.cloudinary.com/dv26e3u8y/image/upload/v1504615074/Tsimane/Home-slide-5.png);
-    
-  }
-  #section4 h1{
-    color: #000;
-  }
-
- 
-  /* Bottom menu
-  * --------------------------------------- */
-  #infoMenu li a {
-    color: #fff;
-  }
-  </style>
 
   <!--[if IE]>
     <script type="text/javascript">
        var console = { log: function() {} };
     </script>
-  <![endif]-->
+    <![endif]-->
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-  <script type="text/javascript" src="js/home/scrolloverflow.js"></script>
-
-
-
-  <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/home/scrolloverflow.js"></script>
 
 
-  <script type="text/javascript">
-$(document).ready(function() {
-  $('#fullpage').fullpage({
+
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
     //Navegación
     menu: '#menu',
     lockAnchors: false,
     anchors:['firstPage', 'secondPage'],
     navigation: true,
     navigationPosition: 'right',
-   
+
     showActiveTooltip: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
@@ -169,7 +101,7 @@ $(document).ready(function() {
     controlArrows: true,
     verticalCentered: true,
     sectionsColor : ['#ccc', '#fff'],
-    paddingTop: '130px',
+    paddingTop: '0px',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',
     responsiveWidth: 0,
@@ -191,17 +123,17 @@ $(document).ready(function() {
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
     onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
   });
-})
+      })
 
-  </script>
+    </script>
 
-  <script src="js/home/vendors/jquery.easings.min.js"></script>
+    <script src="js/home/vendors/jquery.easings.min.js"></script>
 
 
-<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-<script type="text/javascript" src="js/home/vendors/scrolloverflow.min.js"></script>
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="js/home/vendors/scrolloverflow.min.js"></script>
 
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
   </head>
   <body class="body">
     <!--Header_section-->
@@ -239,20 +171,78 @@ $(document).ready(function() {
         </div>
       </header>
 
-<div id="fullpage">
-  <div class="section " id="section0"><h1>fullPage.js</h1></div>
-  <div class="section" id="section1">
-   
-  </div>
-  <div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
-  <div class="section" id="section3"><h1>One Image = One thousand words</h1></div>
-   <div class="section" id="section4"><h1>One Image = One thousand words</h1></div>
-</div>
-  
-  <!-- BEGIN JIVOSITE CODE {literal} -->
-  <script type='text/javascript'>
-    (function(){ var widget_id = '63UqIAgbLq';var d=document;var w=window;function l(){
-      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-      <!-- {/literal} END JIVOSITE CODE -->
-    </body>
-    </html>
+      <div id="fullpage">
+        <div class="section " id="section0">
+          <div class="home-slide-text">
+            <img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1503180878/ico-slide-home-1_hetxdb.png">
+            <h4>THE ABSOLUTE JUNGLE EXPERIENCE</h4>
+            <h1>Catch the wilderness.<br/>Release your passion.</h1>
+            <h2>Get on board for an unforgettable<br/>adventure into the wild.</h2>
+
+          </div>
+          <div>
+            <a class="home-btn" href="JungleExperience.html">Learn more</a>
+          </div>
+
+        </div>
+        <div class="section" id="section1">
+        <div class="home-slide-text">
+            <img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1503182294/icon-home-slide-2_lxrkt5.png">
+            <h4>THE WILDEST FISH</h4>
+            <h1>Amazonian Dorado will change <br/>the way you fish on the fly.</h1>
+            <h2>Discover it while wading into pristine<br/> mountain rivers surrounded by<br/> breathtaking scenery. </h2>
+
+          </div>
+          <div>
+            <a class="home-btn" href="fishing.html">Learn more</a>
+          </div>
+
+        </div>
+        <div class="section" id="section2">
+              <div class="home-slide-text ">
+            <img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1503182294/icon-home-slide-3_zwjm2c.png">
+            <h4>PREMIUM LODGING</h4>
+            <h1>Magnificent landscape outside.<br/>Top-class accommodation inside.</h1>
+            <h2>Haute cuisine and high-class premises provide our<br/> guests with a well-deserved break after an<br/> adventure-filled day.</h2>
+
+          </div>
+          <div>
+            <a class="home-btn" href="Lodging.html">Learn more</a>
+          </div>
+
+        </div>
+        <div class="section" id="section3">  
+         <div class="home-slide-text home-slide-text3">
+            <img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1503182294/icon-home-slide-4_rwywak.png">
+            <h4>ANCESTRAL KNOWLEDGE</h4>
+            <h1>Listen, learn and share.</h1>
+            <h2>Listen to the native’s experience. Learn from<br/> their culture. Share their passion for nature.</h2>
+
+          </div>
+          <div>
+            <a class="home-btn" href="culture.html">Learn more</a>
+          </div>
+        </div>
+     
+        <div class="section" id="section4">
+          <div class="home-slide-text home-slide-text3">
+            <img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1503182294/icon-home-slide-5_pnpzkz.png">
+            <h4>ENVIRONMENTAL STEWARDSHIP.</h4>
+            <h1>Commitment with Nature.</h1>
+            <h2>So we work as hard as we can to protect the jungle <br/> environment and what makes it so special:<br/>it’s waters, wildlife, flora, and the local culture.</h2>
+
+          </div>
+          <div>
+            <a class="home-btn" href="culture.html">Learn more</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- BEGIN JIVOSITE CODE {literal} -->
+      <script type='text/javascript'>
+        (function(){ var widget_id = '63UqIAgbLq';var d=document;var w=window;function l(){
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+          <!-- {/literal} END JIVOSITE CODE -->
+        </body>
+        </html>

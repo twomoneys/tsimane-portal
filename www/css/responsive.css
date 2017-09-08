@@ -1847,8 +1847,72 @@
 	position:relative;
 	height: 300px !important;
 }
+.home-slide-text h1 {
+    margin-top: 30px !important;
+    text-transform: none !important;
+    text-align: left;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 1.95px;
+    color: #FFFFFF !important;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway-bold';
+}
+.home-slide-text h2 {
+    margin-top: 60px !important;
+    font-size: 17px !important;
+    line-height: 24px;
+    letter-spacing: 0.46px;
+    color: #FFFFFF !important;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway-SemiBoldItalic';
+    text-align: left !important;
+}
+.home-btn {
+    padding: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Raleway-regular';
+    border: 1px solid #fff;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.home-slide-text {
+    margin-top: 125px;
+    margin-left: 10%;
+    text-align: left!important;
+}
+.home-slide-text h4 {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF !important;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway-bold';
+    text-transform: uppercase;
+    text-align: left !important;
+}
+#fp-nav.right {
+    right: 10px !important;
+}
+.mRight106{
+	margin-right: 10px;
+}
+.mleft120{
+	margin-left: 10px;
+}
 
-
+#section0, #section1, #section2, #section3, #section4 {
+    background-size: 100% 
+    !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #23190f !important;
+}
 		}
 
 		@media only screen and (max-width: 479px) {
