@@ -4003,7 +4003,7 @@ img {
 #cloudHome-animation img {
 
   left: 0;
-  top: -84%;
+  top: -5%;
   position: absolute;
 }
 
@@ -4043,12 +4043,14 @@ img {
   -webkit-animation: animCloudH 15s infinite linear;
   -moz-animation: animCloudH 15s infinite linear;
   animation: animCloudH 15s infinite linear;
+  height: 600px
 }
 
 #cloudHome2 {
   -webkit-animation: animCloudH 35s infinite linear;
   -moz-animation: animCloudH 35s infinite linear;
   animation: animCloudH 35s infinite linear;
+  height: 600px
 }
 
 
@@ -5077,6 +5079,11 @@ font-family: 'Raleway-Bold', sans-serif !important;}
 }
 .home-slide-text3 {
     margin-top: 300px;
+    margin-left: 8%;
+    text-align: left!important;
+}
+.home-slide-text2 {
+    margin-top: 250px;
     margin-left: 8%;
     text-align: left!important;
 }
