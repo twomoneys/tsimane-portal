@@ -66,7 +66,7 @@ margin-top: 10px;} /* '' */
 .icon-reels-fishing:before { content: '\e804'; } /* '' */
 .icon-rods-fishing:before { content: '\e805'; } /* '' */
 .icon-lines-fishing:before { content: '\e806'; } /* '' */
-.icon-communities-2-tsimane:before { content: '\e807'; font-size: 66px;    margin-right: 0em;    vertical-align: text-top;} /* '' */
-.icon-environmental-2-tsimane:before { content: '\e808'; font-size: 66px;    margin-right: 0em;    vertical-align: text-top; } /* '' */
-.icon-working-2-tsimane:before { content: '\e809'; font-size: 66px;    margin-right: 0em;     vertical-align: text-top;} /* '' */
-.icon-world-class-2-tsimane:before { content: '\e80a'; font-size: 66px;    margin-right: 0em;     vertical-align: text-top;} /* '' */
+.icon-communities-2-tsimane:before { content: '\e807'; font-size: 66px;    margin-right: 0em;    vertical-align: text-top;     padding-top: 20px;} /* '' */
+.icon-environmental-2-tsimane:before { content: '\e808'; font-size: 66px;    margin-right: 0em;    vertical-align: text-top;    padding-top: 20px; } /* '' */
+.icon-working-2-tsimane:before { content: '\e809'; font-size: 66px;    margin-right: 0em;     vertical-align: text-top;    padding-top: 20px;} /* '' */
+.icon-world-class-2-tsimane:before { content: '\e80a'; font-size: 66px;    margin-right: 0em;     vertical-align: text-top;    padding-top: 20px;} /* '' */
