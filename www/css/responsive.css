@@ -55,6 +55,73 @@
 	height: 770px !important;
 }
 
+.home-slide-text h4{
+    font-size : 25px;
+  line-height : 58px;
+  letter-spacing : 0.5px;
+  color : #FFFFFF !important;
+  color : rgb(255, 255, 255);
+  font-family: 'Raleway-bold';
+  text-transform: uppercase;
+  text-align: left !important;
+  }
+  .home-slide-text h1{
+
+  text-transform: none;
+  text-align: left;
+   font-size : 55px;
+  line-height : 49px;
+  letter-spacing : 1.95px;
+  color : #FFFFFF !important;
+  color : rgb(255, 255, 255);
+  font-family: 'Raleway-bold';
+  }
+
+  .home-slide-text h2{
+    margin-top: 30px !important;
+     font-size : 36px;
+  line-height : 40px;
+  letter-spacing : 0.46px;
+  color : #FFFFFF !important;
+  color : rgb(255, 255, 255);
+  font-family: 'Raleway-SemiBoldItalic';
+  text-align: left !important;
+  text-transform: none;
+  }
+
+  #cloudHome1 {
+  -webkit-animation: animCloudH 15s infinite linear;
+  -moz-animation: animCloudH 15s infinite linear;
+  animation: animCloudH 15s infinite linear;
+  height: 300px
+}
+
+#cloudHome2 {
+  -webkit-animation: animCloudH 35s infinite linear;
+  -moz-animation: animCloudH 35s infinite linear;
+  animation: animCloudH 35s infinite linear;
+  height: 300px
+}
+#section3 {
+   background-size:cover !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+}
+
+.home-slide-text{
+ margin-top: 170px;margin-left: 8%; text-align: left!important;
+}
+  .nubestext{
+  	position: absolute;margin-top: -100px
+  }
+  .home-btn2{
+  	margin-top: 120px !important
+  }
+  .home-btn3{
+  	margin-top: -120px !important
+  }
+
    }
 
    	@media only screen and (min-width: 768px) and (max-width: 1080px) {
