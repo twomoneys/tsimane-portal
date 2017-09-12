@@ -44,7 +44,27 @@
     <script type="text/javascript" src="js/home/revslider/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="js/home/revslider/revslider.js"></script>
     <!-- End Rev Slider -->
+<script type="text/javascript">
+var autoscroll = (function(){
 
+    var timer = null;
+
+    return function(everySeconds, selector){
+
+        if( timer ){
+            clearTimeout(timer)
+        }
+
+        timer = setInterval(function() {
+            document.querySelector(selector).click()
+        }, everySeconds * 1000)
+
+    }
+
+})()
+
+// Se usa así:
+autoscroll(8, '.right.carousel-control')</script>
 </head>
 <body class="body">
 	<!--Header_section-->
@@ -82,205 +102,82 @@
 			</div>
 		</header>
 		<!--Header_section--> 
-		<section id="home" class="container relative">
-			<!-- Slider Wrapper -->
-			<div id="full-slider-wrapper">
-				<div class="tp-banner-container">
-					<div class="tp-banner" >
-						<ul>
+		<section id="home" class="relative">
 
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="1000" >
-								<!-- MAIN IMAGE -->
-								<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1503418792/Tsimane/programs/slide-Agua-Negra-programs.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
+  
+    <script src="js/Jungle/index.js"></script>
+ <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
 
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
 
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
 
-
-								<!-- LAYER NR. 3 -->
-								<div class="tp-caption customin customout text-type3 t-left oswald "
-								data-x="left"
-								data-y="center" data-voffset="-20"
-								data-customin="x:100;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-								data-speed="1000"
-								data-start="2400"
-								data-easing="Power4.easeOut"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn"
-								data-captionhidden="on"
-								style="z-index: 2">
-								Agua Negra
+                <!-- Third Slide -->
+                <div class="item active">
+                	<div class="service_block">
+							<div class="programs-slide1 Jungle" >
+								<div class="cultureDiv">
+									
+									
+									<h2>Agua Negra.</h2>
+									<h4>Adventure-seeking anglers wanted.</h4>
+								</div>
 							</div>
 
-
-							<!-- LAYER NR. 5 -->
-							<div class="tp-caption customin customout text-type4 t-left "
-							data-x="left"
-							data-y="center" data-voffset="38"
-							data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-							data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-							data-speed="1000"
-							data-start="3300"
-							data-easing="Power4.easeOut"
-							data-endspeed="500"
-							data-endeasing="Power4.easeIn"
-							data-captionhidden="on"
-							style="z-index: 2;">
-							The hidden jewel of Tsimane
 						</div>
-
-
-						<!-- Social -->
-						<div class="tp-caption customin customout"
-						data-x="left"
-						data-y="center" data-voffset="-120"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="2600"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: ;margin-left: 6%">
-						<img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1502129779/AllUSATravel/lodging.png">
-					</div>
-
-
-
-
-				</li>
-
-				<li data-transition="random" data-slotamount="7" data-masterspeed="1000" >
-					<!-- MAIN IMAGE -->
-					<img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1503418821/Tsimane/programs/slide-Secure-programs.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" class="animated infinite shake">
-					<!-- LAYERS -->
-
-
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption customin customout text-type3 t-left oswald "
-					data-x="left"
-					data-y="center" data-voffset="-20"
-					data-customin="x:100;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-					data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-					data-speed="1000"
-					data-start="2400"
-					data-easing="Power4.easeOut"
-					data-endspeed="500"
-					data-endeasing="Power4.easeIn"
-					data-captionhidden="on"
-					style="z-index: 2">
-					Sécure
 				</div>
 
+                <div class="item">
+					<div class="service_block">
+							<div class="programs-slide2 Jungle" >
+								<div class="cultureDiv">
+									<h2>Sécure</h2>
+									<h4>The very headwaters</h4>
+								</div>
+							</div>
 
-				<!-- LAYER NR. 5 -->
-				<div class="tp-caption customin customout text-type4 t-left "
-				data-x="left"
-				data-y="center" data-voffset="38"
-				data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-				data-speed="1000"
-				data-start="3300"
-				data-easing="Power4.easeOut"
-				data-endspeed="500"
-				data-endeasing="Power4.easeIn"
-				data-captionhidden="on"
-				style="z-index: 2;">
-				The very headwaters
-			</div>
+						</div>
+                </div>
 
+              
+                <div class="item">
 
-
-			<!-- Social -->
-			<div class="tp-caption customin customout"
-			data-x="left"
-			data-y="center" data-voffset="-120"
-			data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-			data-speed="500"
-			data-start="2600"
-			data-easing="Power4.easeOut"
-			data-endspeed="500"
-			data-endeasing="Power4.easeIn"
-			data-captionhidden="on"
-			style="z-index: 2;margin-left: 4%">
-			<img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1502129779/AllUSATravel/lodging.png">
-		</div>
+                  	<div class="service_block">
+							<div class="programs-slide3 Jungle" >
+								<div class="Lodging">
+									<h2>Pluma</h2>
+									<h4>the classic</h4>
+								</div>
+							</div>
+					</div>
+                </div>
+             
 
 
-	</li>
-	<!-- End Slide -->
+            </div><!-- End of Wrapper For Slides -->
 
-	<!-- SLIDE  -->
-	<li data-transition="random" data-slotamount="7" data-masterspeed="1000" >
-		<!-- MAIN IMAGE -->
-		<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1503418808/Tsimane/programs/slide-Pluma-programs.jpg"  alt="slidebg1"  data-bgposition="center top" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-		<div id="Gotas-animation">
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
 
-			<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1501509082/Tsimane/drops-1_jrutxw.png" alt="" id="Gotas1" style="margin: 10% 30%; ">
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
 
-
-		</div>
-		<!-- LAYER NR. 1 -->
-		<div class="tp-caption customin customout text-type3  t-left oswald "
-		data-x="left"
-		data-y="center" data-voffset="-50"
-		data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-		data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-		data-speed="500"
-		data-start="1600"
-		data-easing="Power4.easeOut"
-		data-endspeed="500"
-		data-endeasing="Power4.easeIn"
-		data-captionhidden="on"
-		style="z-index: 2">
-		Pluma
-	</div>
-
-	<!-- LAYER NR. 2 -->
-	<div class="tp-caption customin customout text-type4 t-left"
-	data-x="left"
-	data-y="center" data-voffset="0"
-	data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-	data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-	data-speed="500"
-	data-start="1600"
-	data-easing="Power4.easeOut"
-	data-endspeed="500"
-	data-endeasing="Power4.easeIn"
-	data-captionhidden="on"
-	style="z-index: 2; margin-top: 60px; ">
-	The classic
-</div>
-<div class="tp-caption customin customout"
-data-x="left"
-data-y="center" data-voffset="-120"
-data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-data-speed="500"
-data-start="2600"
-data-easing="Power4.easeOut"
-data-endspeed="500"
-data-endeasing="Power4.easeIn"
-data-captionhidden="on"
-style="z-index: 2; margin-bottom: 60px;margin-left: 4%">
-<img src="https://res.cloudinary.com/dv26e3u8y/image/upload/v1502129779/AllUSATravel/lodging.png">
-</div>
+        </div> 
 
 
-</li>
-<!-- End Slide -->
 
-</ul>
-
-</div>
-</div>
-</div><!-- End Slider Wrapper -->
 </section><!-- End Home Section -->
 
 <section id="Programs1"  >

@@ -28,7 +28,27 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/html5element.js"></script>
     <![endif]-->
+<script type="text/javascript">
+var autoscroll = (function(){
 
+    var timer = null;
+
+    return function(everySeconds, selector){
+
+        if( timer ){
+            clearTimeout(timer)
+        }
+
+        timer = setInterval(function() {
+            document.querySelector(selector).click()
+        }, everySeconds * 1000)
+
+    }
+
+})()
+
+// Se usa así:
+autoscroll(8, '.right.carousel-control')</script>
 
 </head>
 <body class="body">
@@ -77,24 +97,107 @@
 			</div>
 		</div>
 		<!--Top_content--> 
+
+
+        
+        
+       
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
 		<section class="jungle" id="JungleExperience "  >
 
 
 			<div class="service_area">
 				<div class="row">
 					<div class="col-lg-10 paddingLR">
-						<div class="service_block">
+
+					 <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                <div class="service_block">
 							<div class="Jungle-slide1 Jungle" >
 								<div class="wildtitle">
 									
 									<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500995530/Tsimane/wild-and-nature_wcqud3.png">
-									<h3>Wild and nature</h3>
-									<h2>Inhale nature.<br/> Exhale your passion</h2>
-									<h4>Adventure-seeking anglers wanted.</h4>
+									<h3 data-animation="animated zoomInRight">Wild and nature</h3>
+									<h2 data-animation="animated fadeInLeft">Inhale nature.<br/> Exhale your passion</h2>
+									<h4 data-animation="animated fadeInLeft">Adventure-seeking anglers wanted.</h4>
 								</div>
 							</div>
 
 						</div>
+
+                   
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+	<div class="service_block">
+							<div class="Jungle-slide2 Jungle" >
+								<div class="cultureDiv">
+									<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1500995618/Tsimane/culture-2_kfezly.png">
+									<h3>Culture</h3>
+									<h2>Be inspired by <br/>the local fishermen.</h2>
+									<h4>Witness the wisdom and craft of <br/> the natives  who carry on a <br/>centuries-old legacy.</h4>
+								</div>
+							</div>
+
+						</div>
+                </div>
+
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+
+                  	<div class="service_block">
+							<div class="Jungle-slide3 Jungle" >
+								<div class="Lodging">
+
+									<img src="http://res.cloudinary.com/dv26e3u8y/image/upload/v1502129779/AllUSATravel/lodging.png">
+									<h3>LODGIND AND SERVICE</h3>
+									<h2>Exhilarating landscape meets <br/> state-of-the-art accommodation</h2>
+									<h4>Enjoy our delicious international cuisine <br/> and relax in our rooms with astonishing<br/> views.</h4>
+								</div>
+							</div>
+
+
+						</div>
+                </div>
+                <!-- End of Slide -->
+
+
+            </div><!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div> 
+						
 					</div>
 					<div class="col-lg-2  paddingLR" style="z-index: 40">
 						<div class="service_block">
@@ -123,6 +226,7 @@
 							</div>
 
 						</div>
+					</div>
 					</div>
 
 				</section>
