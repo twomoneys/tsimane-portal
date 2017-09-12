@@ -1616,27 +1616,31 @@ ul.tabs{
   border-left: 1px solid #ccc;
 }
 ul.tabs li{
-  background: none;
-  color: #888a8d;
-  display: inline-block;
-  padding: 10px 15px;
-  cursor: pointer;
-  width: 100%;
-  font-size:20px;
-  text-transform: uppercase;
-  font-family: 'Raleway-semibold', sans-serif;
-  text-align: left;
-  border-bottom: 1px solid #ccc;
-  height: 71px;
+     background: none;
+    color: #888a8d;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 93%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway-semibold', sans-serif;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    height: 71px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 ul.tabs li img{
   margin-right: 10px;
 }
 
 ul.tabs li.current{
-  background:#928000;
-  color: #fff;
-  height: 75px;
+     background: #928000;
+    color: #fff;
+    height: 75px;
+    width: 100%;
+    margin-left: 0PX;
 }
 ul.tabs li.current i{
 
